@@ -1,10 +1,11 @@
-baseURL = "https://markurusov1.github.io/defischolar_site/"         # we'll change this later for real deploy
+baseURL = "https://markurusov1.github.io/defischolar_site/"
+publishDir = "docs"
 languageCode = "en-us"
 title = "DeFi Scholar"
 theme = "ananke"
 
 [params]
-description = "High Schooler’s Guide to Decentralized Finance"
+description = "High Schooler's Guide to Decentralized Finance"
 author = "markurusov1 & friends"
 
 [menu]
