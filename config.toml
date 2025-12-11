@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "DeFi Scholar: High Schooler’s Guide to Decentralized Finance"
 
 enableGitInfo = true
+publishDir = "docs"
 
 [module]
 [[module.imports]]
