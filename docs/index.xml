@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Hinode! on DeFi Scholar: High Schooler’s Guide to Decentralized Finance</title>
-    <link>https://markurusov1.github.io/defischolar_site/</link>
-    <description>Recent content in Welcome to Hinode! on DeFi Scholar: High Schooler’s Guide to Decentralized Finance</description>
+    <title></title>
+    <link>//localhost:60476/</link>
+    <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://markurusov1.github.io/defischolar_site/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me &amp; This Site</title>
-      <link>https://markurusov1.github.io/defischolar_site/about/</link>
-      <pubDate>Wed, 10 Dec 2025 19:30:00 -0500</pubDate>
-      <guid>https://markurusov1.github.io/defischolar_site/about/</guid>
-      <description>&lt;h2 id=&#34;hello-im-your-namesite-name-&#34; class=&#34;heading &#34;&gt;Hello, I&amp;rsquo;m [Your Name/Site Name] 👋&lt;a href=&#34;#hello-im-your-namesite-name-&#34; aria-labelledby=&#34;hello-im-your-namesite-name-&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to my corner of the internet! This site is dedicated to [briefly state the site&amp;rsquo;s main purpose or focus, e.g., &amp;ldquo;documenting my journey in web development,&amp;rdquo; or &amp;ldquo;exploring the history of architecture&amp;rdquo;].&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;who-i-am&#34; class=&#34;heading &#34;&gt;Who I Am&lt;a href=&#34;#who-i-am&#34; aria-labelledby=&#34;who-i-am&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;!-- &lt;i class=&#34;fas fa-link anchor&#34;&gt;&lt;/i&gt; --&gt;&#xA;        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;I am a &lt;strong&gt;[Your Profession/Title]&lt;/strong&gt; based in &lt;strong&gt;[Your Location]&lt;/strong&gt;. My passion lies in &lt;strong&gt;[Your Main Interest]&lt;/strong&gt;, and I spend my days [mention a few key activities, e.g., &amp;ldquo;coding complex algorithms,&amp;rdquo; &amp;ldquo;photographing nature,&amp;rdquo; or &amp;ldquo;researching vintage synthesizers&amp;rdquo;].&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Get In Touch</title>
-      <link>https://markurusov1.github.io/defischolar_site/contact/</link>
-      <pubDate>Wed, 10 Dec 2025 19:30:00 -0500</pubDate>
-      <guid>https://markurusov1.github.io/defischolar_site/contact/</guid>
-      <description></description>
-    </item>
+    <atom:link href="//localhost:60476/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
