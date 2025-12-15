@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001f63a7-5091-4c40-8ae1-a3dab2f81595" name="Changes" comment="fixed baseURL">
-      <change afterPath="$PROJECT_DIR$/assets/js/theme-toggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-book" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <workItem from="1765410349531" duration="1275000" />
       <workItem from="1765411690662" duration="7598000" />
       <workItem from="1765502666198" duration="5499000" />
-      <workItem from="1765510214638" duration="7092000" />
+      <workItem from="1765510214638" duration="7690000" />
     </task>
     <task id="LOCAL-00001" summary="fixed baseURL">
       <option name="closed" value="true" />
