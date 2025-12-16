@@ -1,0 +1,2 @@
+{{ $script := resources.Get "js/theme-toggle-logic.js" | js.Build }}
+<script src="{{ $script.Permalink }}" defer></script>
