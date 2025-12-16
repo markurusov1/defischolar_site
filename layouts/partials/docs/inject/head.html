@@ -1,0 +1,65 @@
+<!-- layouts/partials/docs/inject/head.html -->
+<script>
+    // Theme toggle function
+    window.toggleTheme = function() {
+        let currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+
+        // Update icon if button exists
+        const toggle = document.getElementById('theme-toggle');
+        if (toggle) {
+            toggle.querySelector('.sun').style.display = newTheme === 'dark' ? 'block' : 'none';
+            toggle.querySelector('.moon').style.display = newTheme === 'dark' ? 'none' : 'block';
+        }
+    };
+
+    // Apply theme on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        let theme = localStorage.getItem('theme');
+
+        if (!theme) {
+            // Fall back to system preference if no saved choice
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        document.documentElement.setAttribute('data-theme', theme);
+
+        // Update icon on load
+        const toggle = document.getElementById('theme-toggle');
+        if (toggle) {
+            toggle.querySelector('.sun').style.display = theme === 'dark' ? 'block' : 'none';
+            toggle.querySelector('.moon').style.display = theme === 'dark' ? 'none' : 'block';
+
+            // Attach click listener
+            //toggle.addEventListener('click', window.toggleTheme);
+        }
+    });
+</script>
+
+<style>
+    #theme-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 4px;
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #theme-toggle .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    #theme-toggle .sun { display: block; }
+    #theme-toggle .moon { display: none; }
+
+    [data-theme="dark"] #theme-toggle .sun { display: none; }
+    [data-theme="dark"] #theme-toggle .moon { display: block; }
+</style>

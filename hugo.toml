@@ -9,7 +9,6 @@ path = 'github.com/alex-shpak/hugo-book'
 [params]
 # Options: "light" (always light), "dark" (always dark), "auto" (follow system – default)
 BookTheme = "auto"
-customCSS = ["css/custom.css"]
 
 [markup]
 [markup.goldmark]
