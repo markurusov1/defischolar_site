@@ -1,0 +1,72 @@
+
+# Blockchain Basics: Intro and Concepts
+
+- We will start with simple examples to introduce the technology and the way it works
+- Then we'll explain what the important concepts are – what makes the technology so powerful
+- ...and only then we'll get into complex stuff required to understand what goes on under the hood
+
+## Example
+
+- You have a regular account in a bank (like Chase) and Venmo app
+- A friend is asking you to pay him in Bitcoin
+- How would this work?
+
+## Wallets
+
+- Remember how Bitcoin is a network?
+- All the kids with their Venmo apps are now nodes in that network
+
+![Peer-to-Peer Network Diagram](https://miro.medium.com/1*QqrlQF38LGYjoaqBYqrNMg.jpeg)
+
+- Specifically, these nodes are known as digital wallets
+- Wallets are a lot like bank accounts
+    - You keep your money (digital currency, tokens) in them
+    - You send/receive tokens from/into them
+- The network knows the wallets by their IDs (just a long text string)
+
+## A Word on Exchanges
+
+- In real markets and cryptocurrency markets, exchanges are companies that perform buying and selling of stocks or currencies
+- If you saw a "Currency Exchange" kiosk at an airport – that's a little exchange
+
+![Currency Exchange Kiosk at Airport](https://icecurrency-usa.com/fileadmin/Files/USA/SEATTLE-MAIN.jpeg)
+
+- It holds cash in many currencies
+- It buys currency from you at a lower rate and then sells it to someone else at a higher rate and makes profit
+- Stock markets do this as well, just at a much higher scale
+
+## Buying Bitcoin into Venmo
+
+- Venmo holds your wallet and Venmo is connected to your bank account
+- Venmo also acts as an exchange broker
+- The first thing you do in the app is press "Buy Crypto"
+- ...and then Venmo will
+    - Connect to one of many exchanges operating in the Bitcoin network (Paxos)
+    - Conduct the transaction on your behalf
+        - Find another wallet (through an exchange) that transfers its Bitcoins to your wallet
+        - Take some dollars from your bank account and send to that exchange (which will later send it to whoever sold bitcoins to you)
+
+![Venmo App Buy Crypto Screenshot](https://image.cnbcfm.com/api/v1/image/106870977-1618935186720-Crypto_on_Venmo.jpg?v=1618935228&w=720&h=405)
+
+*As Grok, here's a quick note: When you buy crypto on Venmo, it's seamless but remember, fees apply, and it's custodial—Venmo holds the keys. For true decentralization, consider non-custodial wallets!*
+
+## Can It Be Done Differently?
+
+- Yes, it can
+- When cryptocurrencies just started, people used USB-sticks with their digital wallets and had to know their counterparties (people to sell to or buy from)
+    - Knowing a counterparty is knowing their wallet’s network address
+- This was a pure peer-to-peer setup – no exchanges, no banks
+- It guaranteed anonymity, which is helpful for all kinds of shady activity
+    - The only thing that was public is that a wallet with ID1 moved some coins to a wallet with ID2
+- This option is still available, but most people use bank-linked apps and trade through exchanges – because it is much easier than going hard-core
+- Digital wallets managed by services like Venmo or other digital currency exchanges are called “custodial” wallets – meaning someone has custody of your stuff
+
+## Summary
+
+- Blockchain is a P2P network technology
+- Bitcoin is just one of many blockchain networks
+- Nodes are digital wallets
+- In the “pure” model, it is a decentralized anonymous system
+- In reality, most people use centrally owned services (banks, apps, exchanges) to transact in Bitcoin
+
+![Blockchain P2P Network Illustration](https://www.researchgate.net/profile/Bojana-Koteska/publication/320127088/figure/fig1/AS:544228629778432@1506765624566/Blockchain-P2P-Network.png)

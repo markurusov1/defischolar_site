@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DeFi Scholar</title>
+    <title>Currencies on DeFi Scholar</title>
     <link>https://markurusov1.github.io/defischolar_site/docs/currencies_and_trust/</link>
-    <description>Recent content on DeFi Scholar</description>
+    <description>Recent content in Currencies on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://markurusov1.github.io/defischolar_site/docs/currencies_and_trust/index.xml" rel="self" type="application/rss+xml" />

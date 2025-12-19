@@ -5,119 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001f63a7-5091-4c40-8ae1-a3dab2f81595" name="Changes" comment="clean up the list of things to be installed">
-      <change afterPath="$PROJECT_DIR$/content/docs/currencies_and_trust/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/start/basic_terminology/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/blockchain/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/blockchain/intro_and_concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/blockchain/miners_and_ledger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/blockchain/sample_transaction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/networks/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/start/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/collapsed/3rd-level/4th-level.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/collapsed/3rd-level/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/collapsed/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/hidden.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/table-of-contents/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/table-of-contents/with-toc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/sections/table-of-contents/without-toc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/buttons.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/columns.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/details.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/experimental/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/experimental/asciinema.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/experimental/badges.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/experimental/cards.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/experimental/images.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/hints.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/katex.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/mermaid.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/section/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/section/first-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/section/second-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/steps.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/shortcodes/tabs.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/creating-a-new-theme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/goisforlovers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/hugoisforlovers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/migrate-from-jekyll.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/showcases.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/currencies_and_trust/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/currencies_and_trust/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/start/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/start/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/start/basic_terminology/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/start/basic_terminology/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/development/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/development/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/development/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/development/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/development/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/golang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/golang/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/golang/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/golang/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/golang/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/golang/page/1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/collapsed/3rd-level/4th-level/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/collapsed/3rd-level/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/collapsed/3rd-level/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/collapsed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/collapsed/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/hidden/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/table-of-contents/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/table-of-contents/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/table-of-contents/with-toc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/sections/table-of-contents/without-toc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/buttons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/buttons/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/columns/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/columns/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/details/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/details/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/asciinema/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/asciinema/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/badges/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/badges/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/cards/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/cards/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/images/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/experimental/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/experimental/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/hints/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/hints/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/katex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/katex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/mermaid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/mermaid/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/section/first-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/section/first-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/section/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/section/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/section/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/section/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/section/second-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/section/second-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/steps/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/steps/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/shortcodes/tabs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/shortcodes/tabs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search-data.min.3fdc362e9166f62fb7418c97d60da97a8edb31a2e6146cef55fcf30efb1397c3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search.min.62ebed9ebb22d34606e62dec260e667670d20e4c5368c637a483c4b6fdfee55b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/en.search-data.min.394bfdf61520fe917cb2a9046851d1ae392468a50ca819d9f1630c1c78486591.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/en.search.min.392dc5a36cc43227382458d907b1033d031ecb237a7c2b0fe0eaf1d0f4d02585.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/creating-a-new-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/creating-a-new-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/goisforlovers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/goisforlovers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/hugoisforlovers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/hugoisforlovers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/migrate-from-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/migrate-from-jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/showcases/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/showcases/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/development/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/development/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/development/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/development/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/development/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/go/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/go/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/go/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/go/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/go/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/golang/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/golang/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/golang/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hugo/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hugo/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hugo/page/1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/templates/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/templates/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/templates/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/templates/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/themes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/themes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/themes/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/themes/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/themes/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/themes/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,41 +89,43 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PowerShell.rebuild-and-serve.ps1 (1).executor": "Run",
-    "PowerShell.rebuild-and-serve.ps1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/denis/IdeaProjects/defischolar_site",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PowerShell.rebuild-and-serve.ps1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;PowerShell.rebuild-and-serve.ps1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/denis/IdeaProjects/defischolar_site&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\denis\IdeaProjects\defischolar\content\docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\denis\IdeaProjects\defischolar_site\content\docs\blockchain" />
+      <recent name="C:\Users\denis\IdeaProjects\defischolar_site\content\docs\blockchain_by_example" />
       <recent name="C:\Users\denis\IdeaProjects\defischolar_site\content\docs" />
       <recent name="C:\Users\denis\IdeaProjects\defischolar\layouts\partials\docs\inject" />
       <recent name="C:\Users\denis\IdeaProjects\defischolar\layouts\partials" />
@@ -272,7 +190,8 @@
       <workItem from="1765510214638" duration="8550000" />
       <workItem from="1765927578338" duration="3564000" />
       <workItem from="1765973997520" duration="4089000" />
-      <workItem from="1765981904797" duration="13968000" />
+      <workItem from="1765981904797" duration="15191000" />
+      <workItem from="1766102672473" duration="6688000" />
     </task>
     <task id="LOCAL-00001" summary="fixed baseURL">
       <option name="closed" value="true" />

@@ -13,14 +13,13 @@ Decentralized Finance by a high schooler for high schoolers
 {{% columns %}}
 
 - ## The Journey
-  I started this project out of interest in Finance as a future college major. DeFi seemed to be much more
-  accessible, yet there was a lot to learn. As a high schooler myself, I wanted to create a resource that would
-  make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
-
-- ## The Project
-  To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V4 protocol. This
-  site contains the notes I took along the way, organized (by Gen AI) into the sections below.
-  {{% /columns %}}
+>  I started this project out of interest in Finance as a future college major. DeFi seemed to be much more
+>  accessible, yet there was a lot to learn. As a high schooler myself, I wanted to create a resource that would
+>  make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
+## The Project
+>  To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V4 protocol. This
+>  site contains the notes I took along the way, organized (by Gen AI) into the sections below.
+>{{% /columns %}}
 
 {{% columns %}}
 
