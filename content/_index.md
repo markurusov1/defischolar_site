@@ -14,11 +14,11 @@ Decentralized Finance study and research notes
 
 - ## The Journey
 >  I started this project out of interest in Finance as a future college major. DeFi seemed to be much more
->  accessible, yet there was a lot to learn. As a high schooler myself, I wanted to create a resource that would
->  make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
+> accessible, yet there was a lot to learn. As a high schooler myself, I wanted to create a resource that would
+> make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
 ## The Project
 >  To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V4 protocol. This
->  site contains the notes I took along the way, organized (by Gen AI) into the sections below.
+> site contains the notes I took along the way, organized (by Gen AI) into the sections below.
 >{{% /columns %}}
 
 {{% columns %}}
@@ -47,7 +47,8 @@ Decentralized Finance study and research notes
 - {{< card >}}
   ### Blockchain: step by step
   __Summary__: A deep dive into how transactions actually move through a distributed, immutable ledger. Learn about the 
-  role of miners who verify transactions, the "Proof of Work" puzzles that prevent cheating, and how the network reaches consensus to ensure every digital dollar is accounted for without a bank..
+  role of miners who verify transactions, the "Proof of Work" puzzles that prevent cheating, and how the network 
+  reaches consensus to ensure every digital dollar is accounted for without a bank...
   {{< /card >}}
 
 - {{< card >}}
