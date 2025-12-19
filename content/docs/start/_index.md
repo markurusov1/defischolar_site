@@ -21,3 +21,4 @@ title: "Introduction"
 {{% /hint %}}
 
 ![Learning together](/images/intro_page.png "Learning together")
+

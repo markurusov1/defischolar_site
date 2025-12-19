@@ -1,0 +1,19 @@
+/* 1. Adjust the Icon itself */
+.hi-svg-inline {
+  margin-top: 2.5rem !important;    /* Adds space ABOVE to separate from previous section */
+  margin-bottom: -0.05rem !important; /* Pulls the heading UP toward the icon */
+  display: block !important;         /* Makes the icon sit on its own line */
+}
+
+/* 2. Target the H2 Heading immediately following the icon */
+/* This removes the theme's default top margin that creates the 'gap' */
+.hi-svg-inline + h2 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 3. Optional: If your icons are too big/small, you can control them here too */
+.hi-svg-inline {
+  width: 35px !important;
+  height: 35px !important;
+}

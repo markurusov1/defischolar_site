@@ -11,11 +11,13 @@ bold menu item name and probably an ident
 
 ### Images
 
-- images go into /assets/images
+- images go into /static/images
+- must have a blank line before and after the image tag
 - sample working usage: ![DeFi Scholar Logo](/images/intro_page.png "DeFi Scholar Logo")
 
 ### Icons
 - https://lucide.dev/
 - https://icons.hugomods.com/docs/usages/
 - hugo mod get github.com/hugomods/icons/vendors/lucide
+- /assets/custom.scss control the margins
 
