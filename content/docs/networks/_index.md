@@ -1,9 +1,10 @@
 ---
 title: Blockchain Networks
+bookCollapseSection: true
 weight: 5
 ---
 
-# Layer 1 (L1) Networks: The Foundational Layer
+## Layer 1 (L1) Networks
 
 - A **Layer 1 (L1)** blockchain is a foundational network that operates independently. It handles its own security, 
 transaction validation, and consensus without relying on another network. Think of it as the "base layer" or the 
@@ -24,44 +25,4 @@ transaction validation, and consensus without relying on another network. Think 
 | **Governance** | Mechanisms for protocol upgrades, often on-chain voting via tokens or off-chain signaling. Affects adaptability to new features.| Ethereum (off-chain EIPs + on-chain voting); Tezos (on-chain baking and proposals).|
 | **Interoperability** | Ability to communicate with other chains via bridges or standards, crucial for cross-chain DeFi and data transfer.| Cosmos (IBC protocol for sovereign chains); Polkadot (parachains for shared security).|
 
-## The Top 15 Networks by Total Value Locked (TVL)
 
-{{% hint success %}} **Total Value Locked (TVL)** is a key metric in DeFi. It represents the total amount of assets 
-(tokens)
-currently being used within a network's smart contracts for things like lending or trading. A higher TVL often indicates more trust and utility. {{% /hint %}}
-
-| Rank | Network | Key Characteristic |
-| --- | --- | --- |
-| 1 | **Ethereum** | The pioneer of smart contracts; largest ecosystem. |
-| 2 | **Tron** | High speed, popular for stablecoin transfers. |
-| 3 | **Solana** | Focused on extreme speed and low costs. |
-| 4 | **BSC (BNB)** | High transaction volume, supported by Binance. |
-| 5 | **Arbitrum** (L2*) | Leading Ethereum scaling solution. |
-| 6 | **Avalanche** | Fast finality and highly interoperable. |
-| 7 | **Polygon** | Multi-chain system connected to Ethereum. |
-| 8 | **Base** | Coinbase's consumer-focused network. |
-| 9 | **Sui** | High-performance, object-centric design. |
-| 10 | **Optimism** | Scalability focused on "Optimistic Rollups." |
-| 11 | **Near** | Climate-neutral and developer-friendly. |
-| 12 | **Cronos** | Crypto.com’s EVM-compatible chain. |
-| 13 | **Bitcoin** | The original "Digital Gold"; now adding DeFi layers. |
-| 14 | **Gnosis** | Community-run network for security and efficiency. |
-| 15 | **TON** | Deeply integrated with the Telegram app. |
-
-## Comparing the Big Three
-
-Each network makes different trade-offs in its architecture:
-
-* **Bitcoin (The Store of Value)**: Focused on maximum security and decentralization. It is slow (7 transactions per second) but serves as the world’s most secure ledger.
-* **Ethereum (The World Computer)**: The leader in programmability. While it can be expensive and slower than newer chains, it is the most trusted for complex financial applications.
-* **Solana (The Speed King)**: Built for mass adoption. It can handle up to 65,000 transactions per second with fees under a penny, making it ideal for gaming and high-frequency trading.
-
-## The Blockchain Trilemma
-
-No blockchain is perfect. Developers must balance three competing priorities:
-
-1. **Decentralization**: The network is run by many people/computers.
-2. **Security**: The network is impossible to hack or corrupt.
-3. **Scalability**: The network stays fast and cheap as more people use it.
-
-Improving one often means sacrificing another. For example, Solana achieves high **scalability** but is often criticized for being less **decentralized** than Bitcoin.
