@@ -21,8 +21,9 @@ a **Distributed Ledger**.
 {{% /hint %}}
 
 ## What Makes a "Good" Currency?
-
-By using complex math algorithms and cryptography, miners ensure the blockchain functions as a reliable financial system. A "good" currency is defined by several key traits enabled by this technology:
+- Remember this: [Currencies and Trust](/docs/currencies_and_trust/#currencies-and-trust)?
+- By using complex math algorithms and cryptography, miners ensure the blockchain functions as a reliable financial 
+  system, producing a currency that is defined by several key traits enabled by this technology:
 
 | Feature | Blockchain Implementation |
 | --- | --- |

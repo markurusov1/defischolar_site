@@ -7,16 +7,16 @@
 
 __Consider an example:__
 {{< card >}}
-You have a regular account in a bank (like Chase) and Venmo app. A friend is asking you to pay him in Bitcoin. How 
-would this work?
+You have a regular account in a bank (like Chase) and Venmo app. A friend is asking you to pay him in Bitcoin. How would this work? 
 {{< /card >}}
- 
+(_jump ahead to the details of a [sample transaction:](../sample_transaction)_)
+
 ## Wallets
 {{% hint info %}}
 - Remember how Bitcoin is a network?
 - All the kids with their Venmo apps are now nodes in that network
 - Specifically, these nodes are known as digital wallets
-- Wallets are a lot like bank accounts
+- __Wallets are a lot like bank accounts__
     - You keep your money (digital currency, tokens) in them
     - You send/receive tokens from/into them
 - The network knows the wallets by their IDs (just a long text string)
@@ -34,7 +34,7 @@ would this work?
 >- Venmo holds your wallet and Venmo is connected to your bank account
 >- Venmo also acts as an exchange broker
 >- The first thing you do in the app is press "Buy Crypto"
->- ...and then Venmo will
+>- ...and then Venmo will do the following:
 >    - Connect to one of many exchanges operating in the Bitcoin network (Paxos)
 >    - Conduct the transaction on your behalf
 >        - Find another wallet (through an exchange) that transfers its Bitcoins to your wallet
@@ -48,11 +48,12 @@ would this work?
 >- Yes, it can
 >- When cryptocurrencies just started, people used USB-sticks with their digital wallets and had to know their counterparties (people to sell to or buy from)
 >    - Knowing a counterparty is knowing their wallet’s network address
->- This was a pure peer-to-peer setup – no exchanges, no banks
+>- This was a pure __peer-to-peer__ setup – no exchanges, no banks
 >- It guaranteed anonymity, which is helpful for all kinds of shady activity
->    - The only thing that was public is that a wallet with _ID1_ moved some coins to a wallet with _ID2_
+>    - The only information that was public is that a wallet with _ID1_ moved some coins to a wallet with _ID2_
 >- This option is still available, but most people use bank-linked apps and trade through exchanges – because it is much easier than going hard-core
->- Digital wallets managed by services like Venmo or other digital currency exchanges are called “custodial” wallets 
+>- Digital wallets managed by services like Venmo or other digital currency exchanges are called __“custodial”__ 
+   > wallets 
    > – meaning someone has custody of your stuff
 
 ## Summary
