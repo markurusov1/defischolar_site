@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="001f63a7-5091-4c40-8ae1-a3dab2f81595" name="Changes" comment="clean up the list of things to be installed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/installation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <workItem from="1766188701402" duration="125000" />
       <workItem from="1766188860317" duration="924000" />
       <workItem from="1766270112871" duration="77000" />
-      <workItem from="1766270208332" duration="405000" />
+      <workItem from="1766270208332" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="fixed baseURL">
       <option name="closed" value="true" />

@@ -15,6 +15,11 @@ Install the following software (order recommended):
    - GitHub repo: https://github.com/markurusov1/defischolar_site
    - Download: https://git-scm.com/downloads
    - After instal, restart your terminal so `git` is on PATH.
+     
+   - Before the first commit, do this: 
+   - git config --global user.email "urusov.mark@gmail.com"
+   - git config --global user.name "markurusov1"
+   - then use token (having generated one) to login for the first push
 
 3) Go 1.20+
    - Download: https://go.dev/dl/
