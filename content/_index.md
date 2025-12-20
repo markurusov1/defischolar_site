@@ -18,7 +18,7 @@ Decentralized Finance study and research notes
 > make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
 ## The Project
 >  To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V4 protocol. This
-> site contains the notes I took along the way, organized (by Gen AI) into the sections below.
+> site contains the notes I took along the way, organized into the sections below.
 >{{% /columns %}}
 
 {{% columns %}}
