@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Currencies on DeFi Scholar</title>
-    <link>https://markurusov1.github.io/defischolar_site/docs/currencies_and_trust/</link>
+    <link>http://localhost:1313/defischolar_site/docs/currencies_and_trust/</link>
     <description>Recent content in Currencies on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://markurusov1.github.io/defischolar_site/docs/currencies_and_trust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/defischolar_site/docs/currencies_and_trust/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

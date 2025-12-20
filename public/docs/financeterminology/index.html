@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/defischolar_site/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=defischolar_site/livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" Basic finance concepts# Given that De-Fi is still about finance, there are a few finance concepts you need to understand for now They are: exchange, liquidity and pool De-Fi deals with payments, loans, interest fees, trades and such - and you’d eventually need to get fluent with those Exchange# Take a “Currency Exchange” kiosk at any airport - it buys and sells currency You can buy 77 pounds for 100 dollars (1.3 exchange sell rate) Or you can buy 96 dollars for 77 pounds (1.25 exchange buy rate) The difference between the rates is called “spread” and this is how exchanges make money * Bob came and gave the Exchange $100. Exchange has given Bob 77 pounds* John then came and gave the exchange 77 pounds. Exchange has given John $96* Exchange just made $4 and kept its 77 pounds* Stock exchanges and all other exchanges work the same way">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/defischolar_site/docs/financeterminology/">
+  <meta property="og:site_name" content="DeFi Scholar">
+  <meta property="og:title" content="Finance Terminology">
+  <meta property="og:description" content="Basic finance concepts# Given that De-Fi is still about finance, there are a few finance concepts you need to understand for now They are: exchange, liquidity and pool De-Fi deals with payments, loans, interest fees, trades and such - and you’d eventually need to get fluent with those Exchange# Take a “Currency Exchange” kiosk at any airport - it buys and sells currency You can buy 77 pounds for 100 dollars (1.3 exchange sell rate) Or you can buy 96 dollars for 77 pounds (1.25 exchange buy rate) The difference between the rates is called “spread” and this is how exchanges make money * Bob came and gave the Exchange $100. Exchange has given Bob 77 pounds* John then came and gave the exchange 77 pounds. Exchange has given John $96* Exchange just made $4 and kept its 77 pounds* Stock exchanges and all other exchanges work the same way">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+
+  <meta itemprop="name" content="Finance Terminology">
+  <meta itemprop="description" content="Basic finance concepts# Given that De-Fi is still about finance, there are a few finance concepts you need to understand for now They are: exchange, liquidity and pool De-Fi deals with payments, loans, interest fees, trades and such - and you’d eventually need to get fluent with those Exchange# Take a “Currency Exchange” kiosk at any airport - it buys and sells currency You can buy 77 pounds for 100 dollars (1.3 exchange sell rate) Or you can buy 96 dollars for 77 pounds (1.25 exchange buy rate) The difference between the rates is called “spread” and this is how exchanges make money * Bob came and gave the Exchange $100. Exchange has given Bob 77 pounds* John then came and gave the exchange 77 pounds. Exchange has given John $96* Exchange just made $4 and kept its 77 pounds* Stock exchanges and all other exchanges work the same way">
+  <meta itemprop="wordCount" content="153">
+
+<title>Finance Terminology | DeFi Scholar</title>
+<link rel="icon" href="http://localhost:1313/defischolar_site/favicon.png" >
+<link rel="manifest" href="http://localhost:1313/defischolar_site/manifest.json">
+<link rel="canonical" href="http://localhost:1313/defischolar_site/docs/financeterminology/">
+<link rel="stylesheet" href="http://localhost:1313/defischolar_site/book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
+
+
+  <script defer src="http://localhost:1313/defischolar_site/fuse.min.js"></script>
+  <script defer src="http://localhost:1313/defischolar_site/en.search.min.c9aa85b00e52ef684db830ac918e5ecc06798b154e3130a4df5bc68c7dbd525c.js" integrity="sha256-yaqFsA5S72hNuDCskY5ezAZ5ixVOMTCk31vGjH29Ulw=" crossorigin="anonymous"></script>
+
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/defischolar_site/docs/financeterminology/index.xml" title="DeFi Scholar" />
+
+  <style>
+     
+     
+     
+
+     
+    :root, [data-theme="light"] {
+         
+        --book-bg: #fff;
+        --book-text: #222;
+        --book-panel-bg: #f7f7f7;
+        --book-border: #eee;
+        --book-menu-color: #222;
+        --book-section-color: #000;
+        --book-hint-bg: #f9f9f9;
+        --book-code-bg: #f9f9f9;
+        --book-code-text: #222;
+    }
+
+     
+    :root body, [data-theme="light"] body {
+        background: var(--book-bg);
+        color: var(--book-text);
+    }
+
+     
+    [data-theme="dark"] {
+         
+        --book-bg: #1e1e1e;
+        --book-text: #eee;
+        --book-panel-bg: #333;
+        --book-border: #444;
+        --book-menu-color: #eee;
+        --book-section-color: #f7f7f7;
+        --book-hint-bg: #2d2d2d;
+        --book-code-bg: #2d2d2d;
+        --book-code-text: #eee;
+    }
+
+     
+    [data-theme="dark"] body {
+        background: var(--book-bg);
+        color: var(--book-text);
+    }
+
+     
+     
+     
+
+    #theme-toggle {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 4px;
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+         
+        color: var(--book-text);
+        transition: color 0.2s;
+    }
+
+    #theme-toggle .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+     
+    [data-theme="light"] #theme-toggle .sun { display: none; }
+    [data-theme="light"] #theme-toggle .moon { display: block; }
+
+    [data-theme="dark"] #theme-toggle .sun { display: block; }
+    [data-theme="dark"] #theme-toggle .moon { display: none; }
+</style>
+</head>
+<body dir="ltr" class="book-kind-section book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="http://localhost:1313/defischolar_site/"><span>DeFi Scholar</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6f02e66d32ca0905226078f642cd4d42" class="toggle"  />
+    <label for="section-6f02e66d32ca0905226078f642cd4d42" class="flex">
+      <a href="http://localhost:1313/defischolar_site/docs/start/" class="">
+        Introduction</a>
+      <img src="http://localhost:1313/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/start/basic_terminology/" class="">
+      Basic Terminology</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/currencies_and_trust/" class="">
+      Currencies</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1256afd161c85db9e2a76956426a74fe" class="toggle"  />
+    <label for="section-1256afd161c85db9e2a76956426a74fe" class="flex">
+      <a role="button" class="">
+        Blockchain</a>
+      <img src="http://localhost:1313/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/blockchain/intro_and_concepts/" class="">
+      Intro and Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/blockchain/miners_and_ledger/" class="">
+      Miners and Ledger</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/blockchain/sample_transaction/" class="">
+      Sample Transaction</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1d1e91b53a313683ee598d21d86ec2b7" class="toggle"  />
+    <label for="section-1d1e91b53a313683ee598d21d86ec2b7" class="flex">
+      <a href="http://localhost:1313/defischolar_site/docs/networks/" class="">
+        Blockchain Networks</a>
+      <img src="http://localhost:1313/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/networks/top15/" class="">
+      Top15</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/networks/the_big_three/" class="">
+      The Big Three</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/networks/network_browsers/" class="">
+      Network Browsers</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6b3a584e0ae113d3f8cd55b24166b29a" class="toggle"  />
+    <label for="section-6b3a584e0ae113d3f8cd55b24166b29a" class="flex">
+      <a href="http://localhost:1313/defischolar_site/docs/smart_contracts/" class="">
+        Smart Contracts</a>
+      <img src="http://localhost:1313/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/smart_contracts/polymarket/" class="">
+      Polymarket</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c9a226ba462d8aac0d9b6202f8047d24" class="toggle" checked />
+    <label for="section-c9a226ba462d8aac0d9b6202f8047d24" class="flex">
+      <a href="http://localhost:1313/defischolar_site/docs/financeterminology/" class="active">
+        Finance Terminology</a>
+      <img src="http://localhost:1313/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/defischolar_site/docs/financeterminology/more_terms/" class="">
+      More Terms</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+<nav role="menu" id="theme-button">
+    <button id="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun icon feather feather-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="moon icon feather feather-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+    </button>
+</nav>
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="http://localhost:1313/defischolar_site/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Finance Terminology</h3>
+
+  <label for="toc-control">
+    
+    <img src="http://localhost:1313/defischolar_site/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#basic-finance-concepts">Basic finance concepts</a></li>
+    <li><a href="#exchange">Exchange</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><blockquote class="book-hint success">
+<h2 id="basic-finance-concepts">Basic finance concepts<a class="anchor" href="#basic-finance-concepts">#</a></h2>
+<ul>
+<li>Given that De-Fi is still about finance, there are a few finance concepts you need to understand for now</li>
+<li>They are: <strong>exchange, liquidity and pool</strong></li>
+<li>De-Fi deals with payments, loans, interest fees, trades and such - and you’d eventually need to get fluent with those</li>
+</ul>
+</blockquote>
+<blockquote class="book-hint success">
+<h2 id="exchange">Exchange<a class="anchor" href="#exchange">#</a></h2>
+<ul>
+<li>Take a “Currency Exchange” kiosk at any airport - it buys and sells currency</li>
+<li>You can buy 77 pounds for 100 dollars (1.3 exchange sell rate)</li>
+<li>Or you can buy 96 dollars for 77 pounds (1.25 exchange buy rate)</li>
+<li>The difference between the rates is called “spread” and this is how exchanges make money</li>
+</ul>
+</blockquote>
+<pre tabindex="0"><code>* Bob came and gave the Exchange $100. Exchange has given Bob 77 pounds
+* John then came and gave the exchange 77 pounds. Exchange has given John $96
+* Exchange just made $4 and kept its 77 pounds
+* Stock exchanges and all other exchanges work the same way</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="http://localhost:1313/defischolar_site/docs/smart_contracts/polymarket/" class="flex align-center">
+        <img src="http://localhost:1313/defischolar_site/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Polymarket</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="http://localhost:1313/defischolar_site/docs/financeterminology/more_terms/" class="flex align-center">
+        <span>More Terms</span>
+        <img src="http://localhost:1313/defischolar_site/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#basic-finance-concepts">Basic finance concepts</a></li>
+    <li><a href="#exchange">Exchange</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+<script src="http://localhost:1313/defischolar_site/js/theme-toggle-logic.js" defer></script>
+
+<script src="https://unpkg.com/lucide@0.257.0/dist/lucide.min.js" defer></script>
+<script defer>document.addEventListener('DOMContentLoaded', function(){ if (window.lucide && lucide.replace) { lucide.replace(); } });</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
