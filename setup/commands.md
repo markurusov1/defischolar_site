@@ -77,13 +77,14 @@ hugo --verbose
 # Check what changed
 git status
 
-# Stage all changes (including generated public/ and resources/ per project policy)
+#Pushing to github 
+# Step 1: Stage all changes (including generated public/ and resources/ per project policy)
 git add .
 
-# Commit
+# Step2: Commit
 git commit -m "Update site"
 
-# Push to main
+# Step3: Push to main
 git push origin main
 ```
 

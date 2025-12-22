@@ -5,8 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="001f63a7-5091-4c40-8ae1-a3dab2f81595" name="Changes" comment="clean up the list of things to be installed">
+      <change afterPath="$PROJECT_DIR$/content/docs/defi_basics/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/defi_basics/amm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/defi_basics/flash_loans.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/defi_basics/rwa.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/blockchain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/blockchain/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/blockchain/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/blockchain/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/blockchain/intro_and_concepts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/blockchain/intro_and_concepts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/blockchain/miners_and_ledger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/blockchain/miners_and_ledger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/blockchain/sample_transaction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/blockchain/sample_transaction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/currencies_and_trust/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/financeterminology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/financeterminology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/financeterminology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/financeterminology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/financeterminology/more_terms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/financeterminology/more_terms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/networks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/networks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/networks/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/networks/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/networks/network_browsers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/networks/network_browsers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/networks/the_big_three/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/networks/the_big_three/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/networks/top15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/networks/top15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/smart_contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/smart_contracts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/smart_contracts/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/smart_contracts/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/smart_contracts/polymarket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/smart_contracts/polymarket/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/basic_terminology/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/start/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/start/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/setup/commands.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
