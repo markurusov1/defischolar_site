@@ -20,10 +20,6 @@
   </url><url>
     <loc>http://localhost:1313/defischolar_site/docs/smart_contracts/</loc>
   </url><url>
-    <loc>http://localhost:1313/defischolar_site/docs/financeterminology/</loc>
-  </url><url>
-    <loc>http://localhost:1313/defischolar_site/docs/financeterminology/more_terms/</loc>
-  </url><url>
     <loc>http://localhost:1313/defischolar_site/docs/defi_basics/</loc>
   </url><url>
     <loc>http://localhost:1313/defischolar_site/docs/defi_basics/amm/</loc>
@@ -31,6 +27,8 @@
     <loc>http://localhost:1313/defischolar_site/docs/defi_basics/rwa/</loc>
   </url><url>
     <loc>http://localhost:1313/defischolar_site/docs/defi_basics/flash_loans/</loc>
+  </url><url>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/pools_farming/</loc>
   </url><url>
     <loc>http://localhost:1313/defischolar_site/</loc>
   </url><url>

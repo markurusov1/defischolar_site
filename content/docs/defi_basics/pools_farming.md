@@ -1,5 +1,6 @@
 ---
-weight: 11
+Title: Pools and Pool Farming
+weight: 24
 ---
 
 {{% hint success %}}
@@ -11,7 +12,7 @@ weight: 11
 - In the case of DeFi, we are dealing with pools of tokens (ETH, DAI, USDC, etc.)
 {{% /hint%}}
 
-{{% hint success %}}
+{{% hint info %}}
 ## Pool Farming
 - In De-Fi, pool farming is a form of passive income—meaning you put your money somewhere, and it gives you returns 
 - Specifically - much like with airport currency exchanges—you can lock your money in a digital currency trading 
