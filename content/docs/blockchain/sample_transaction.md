@@ -1,13 +1,13 @@
-# A Step-by-Step Transaction: Mark to Evan
+# A Step-by-Step Transaction: David to John
 
-To understand how money moves in DeFi, let's look at a simple scenario where Mark sends 3 Bitcoins to Evan.
+To understand how money moves in DeFi, let's look at a simple scenario where David sends 3 Bitcoins to John.
 
 ## Transaction Overview
 
 {{% steps %}}
 1. ## Creation and Broadcast
 
-   **Signing**: Mark signs the transaction with his wallet’s private key to prove ownership of the coins.  
+   **Signing**: David signs the transaction with his wallet’s private key to prove ownership of the coins.  
    **Mempool**: The transaction enters a "mempool," a digital waiting room for unconfirmed transactions.  
    **Visibility**: While all nodes can see the transaction, it isn't permanent yet; miners must listen for these broadcasts to prevent double-spending
 
