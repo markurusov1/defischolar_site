@@ -1,4 +1,4 @@
-# baseURL = 'https://markurusov1.github.io/defischolar_site/'
+baseURL = 'https://markurusov1.github.io/defischolar_site/'
 languageCode = 'en-us'
 title = 'DeFi Scholar'
 
