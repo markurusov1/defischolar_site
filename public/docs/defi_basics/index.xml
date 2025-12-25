@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DeFi Scholar</title>
-    <link>http://localhost:1313/defischolar_site/docs/defi_basics/</link>
+    <link>//localhost:1313/docs/defi_basics/</link>
     <description>Recent content on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/defischolar_site/docs/defi_basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/defi_basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Liquidity pools and Yield Farming</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/pools_farming/</link>
+      <link>//localhost:1313/docs/defi_basics/pools_farming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/pools_farming/</guid>
-      <description>&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xA;&lt;h2 id=&#34;pools&#34;&gt;Pools&lt;a class=&#34;anchor&#34; href=&#34;#pools&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pools are a little bit like the pot in Poker&lt;/li&gt;&#xA;&lt;li&gt;You lock player&amp;rsquo;s money in a pot (pool) and you play it&lt;/li&gt;&#xA;&lt;li&gt;The same is with Polymarket and Fantasy football—you lock the money, and you wait for things to happen, and when&#xA;they happen, you let the rules of the game (contracts) distribute the pot&lt;/li&gt;&#xA;&lt;li&gt;In the case of DeFi, we are dealing with pools of tokens (ETH, DAI, USDC, etc.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;h2 id=&#34;pool-farming&#34;&gt;Pool Farming&lt;a class=&#34;anchor&#34; href=&#34;#pool-farming&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In De-Fi, pool farming is a form of passive income—meaning you put your money somewhere, and it gives you returns&lt;/li&gt;&#xA;&lt;li&gt;Specifically - much like with airport currency exchanges—you can lock your money in a digital currency trading&#xA;pool (ran by someone else), and they will pay you a fee each time a transaction is made&lt;/li&gt;&#xA;&lt;li&gt;In this case you act as a liquidity provider&lt;/li&gt;&#xA;&lt;li&gt;This is really important to understand…in real finance, only financial institutions (mostly big banks or governments) are as liquidity providers&lt;/li&gt;&#xA;&lt;li&gt;In De-Fi it can be anyone&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/defischolar_site/images/pool_farming.jpg&#34; alt=&#34;Pool Farming&#34; title=&#34;Pool Farming&#34;/&gt;&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/defi_basics/pools_farming/</guid>
+      <description>&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xA;&lt;h2 id=&#34;pools&#34;&gt;Pools&lt;a class=&#34;anchor&#34; href=&#34;#pools&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pools are a little bit like the pot in Poker&lt;/li&gt;&#xA;&lt;li&gt;You lock player&amp;rsquo;s money in a pot (pool) and you play it&lt;/li&gt;&#xA;&lt;li&gt;The same is with Polymarket and Fantasy football—you lock the money, and you wait for things to happen, and when&#xA;they happen, you let the rules of the game (contracts) distribute the pot&lt;/li&gt;&#xA;&lt;li&gt;In the case of DeFi, we are dealing with pools of tokens (ETH, DAI, USDC, etc.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;h2 id=&#34;pool-farming&#34;&gt;Pool Farming&lt;a class=&#34;anchor&#34; href=&#34;#pool-farming&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In De-Fi, pool farming is a form of passive income—meaning you put your money somewhere, and it gives you returns&lt;/li&gt;&#xA;&lt;li&gt;Specifically - much like with airport currency exchanges—you can lock your money in a digital currency trading&#xA;pool (ran by someone else), and they will pay you a fee each time a transaction is made&lt;/li&gt;&#xA;&lt;li&gt;In this case you act as a liquidity provider&lt;/li&gt;&#xA;&lt;li&gt;This is really important to understand…in real finance, only financial institutions (mostly big banks or governments) are as liquidity providers&lt;/li&gt;&#xA;&lt;li&gt;In De-Fi it can be anyone&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/pool_farming.jpg&#34; alt=&#34;Pool Farming&#34; title=&#34;Pool Farming&#34;/&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Staking</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/staking/</link>
+      <link>//localhost:1313/docs/defi_basics/staking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/staking/</guid>
+      <guid>//localhost:1313/docs/defi_basics/staking/</guid>
       <description>&lt;h3 id=&#34;what-is-staking&#34;&gt;What is Staking?&lt;a class=&#34;anchor&#34; href=&#34;#what-is-staking&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Staking is a key mechanism in blockchain networks, particularly in Proof-of-Stake (PoS) systems like Ethereum (post-2022 Merge) or Solana, where participants &amp;ldquo;lock up&amp;rdquo; (or stake) their cryptocurrency tokens to help secure and operate the network. In return, stakers earn rewards, similar to earning interest in a savings account—but with a decentralized twist. It&amp;rsquo;s a core part of DeFi (Decentralized Finance), enabling things like yield farming and passive income without needing a bank.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vaults</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/vaults/</link>
+      <link>//localhost:1313/docs/defi_basics/vaults/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/vaults/</guid>
+      <guid>//localhost:1313/docs/defi_basics/vaults/</guid>
       <description>&lt;h3 id=&#34;what-are-defi-vaults&#34;&gt;What Are DeFi Vaults?&lt;a class=&#34;anchor&#34; href=&#34;#what-are-defi-vaults&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In the context of Decentralized Finance (DeFi), &lt;strong&gt;vaults&lt;/strong&gt; are automated smart contract-based tools designed to simplify&#xA;and optimize yield farming and liquidity provision for users. They act like &amp;ldquo;set-it-and-forget-it&amp;rdquo; investment vehicles&#xA;where you deposit assets, and the vault handles the complex strategies to maximize returns (measured as Annual&#xA;Percentage Yield or APY) on your behalf. This aligns closely with the &amp;ldquo;yield optimization&amp;rdquo; topic in Module 3 of the DeFi&#xA;Scholar curriculum, where learners explore how protocols automate earnings from DeFi activities like lending or&#xA;swapping.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automated Market Makers</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/amm/</link>
+      <link>//localhost:1313/docs/defi_basics/amm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/amm/</guid>
+      <guid>//localhost:1313/docs/defi_basics/amm/</guid>
       <description>&lt;h1 id=&#34;deep-dive-into-automated-market-makers-amms-in-defi&#34;&gt;Deep Dive into Automated Market Makers (AMMs) in DeFi&lt;a class=&#34;anchor&#34; href=&#34;#deep-dive-into-automated-market-makers-amms-in-defi&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Automated Market Makers (AMMs) are the backbone of decentralized exchanges (DEXes) in DeFi, revolutionizing how users trade cryptocurrencies without relying on traditional order books or intermediaries. As of November 2025, AMMs power over $1 trillion in annual trading volume across blockchains like Ethereum, Solana, and emerging Layer 2s, enabling permissionless, 24/7 liquidity. This deep dive explores their mechanics, evolution, advantages, pitfalls, security, and future trajectory, drawing on foundational concepts and recent innovations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Collateralized Lending</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/collateralized_lending/</link>
+      <link>//localhost:1313/docs/defi_basics/collateralized_lending/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/collateralized_lending/</guid>
+      <guid>//localhost:1313/docs/defi_basics/collateralized_lending/</guid>
       <description>&lt;h3 id=&#34;what-is-collateralized-lending-in-defi&#34;&gt;What is Collateralized Lending in DeFi?&lt;a class=&#34;anchor&#34; href=&#34;#what-is-collateralized-lending-in-defi&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Collateralized lending is a core mechanism in Decentralized Finance (DeFi) that allows users to borrow cryptocurrency assets by locking up other crypto as collateral, all without traditional intermediaries like banks. Unlike centralized lending (e.g., a bank loan requiring credit checks), DeFi lending is permissionless, trustless, and executed via smart contracts on blockchains like Ethereum or Solana. It&amp;rsquo;s &amp;ldquo;over-collateralized,&amp;rdquo; meaning you must deposit more value in collateral than the loan amount to mitigate default risks in volatile crypto markets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Flash loans</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/flash_loans/</link>
+      <link>//localhost:1313/docs/defi_basics/flash_loans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/flash_loans/</guid>
+      <guid>//localhost:1313/docs/defi_basics/flash_loans/</guid>
       <description>&lt;h3 id=&#34;summary-of-defi-flash-loans&#34;&gt;Summary of DeFi Flash Loans&lt;a class=&#34;anchor&#34; href=&#34;#summary-of-defi-flash-loans&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Flash loans are a unique feature in &lt;strong&gt;Decentralized Finance (DeFi)&lt;/strong&gt; that allow users to borrow large amounts of cryptocurrency without any collateral. The catch is that the loan must be repaid (plus a small fee, usually around 0.09%) within the same blockchain transaction—typically in seconds.&lt;/p&gt;&#xA;&lt;p&gt;If repayment doesn&amp;rsquo;t occur, the entire transaction is automatically reversed, making the loan risk-free for the lender. This innovation, popularized by protocols like Aave, enables powerful strategies but also high-risk exploits.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RWA - Real World Assets</title>
-      <link>http://localhost:1313/defischolar_site/docs/defi_basics/rwa/</link>
+      <link>//localhost:1313/docs/defi_basics/rwa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/defi_basics/rwa/</guid>
+      <guid>//localhost:1313/docs/defi_basics/rwa/</guid>
       <description>&lt;h1 id=&#34;real-world-assets-rwas-in-defi-a-comprehensive-overview&#34;&gt;Real World Assets (RWAs) in DeFi: A Comprehensive Overview&lt;a class=&#34;anchor&#34; href=&#34;#real-world-assets-rwas-in-defi-a-comprehensive-overview&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-are-real-world-assets-rwas-in-defi&#34;&gt;What Are Real World Assets (RWAs) in DeFi?&lt;a class=&#34;anchor&#34; href=&#34;#what-are-real-world-assets-rwas-in-defi&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Real World Assets (RWAs) are traditional off-chain assets — such as real estate, bonds, commodities (e.g., gold), art, invoices, or carbon credits — that are tokenized on a blockchain. Tokenization converts ownership rights into digital tokens, allowing these assets to be used within decentralized finance (DeFi) protocols for lending, borrowing, trading, and yield generation.&lt;/p&gt;</description>
     </item>
   </channel>

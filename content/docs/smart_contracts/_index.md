@@ -1,7 +1,7 @@
 ---
 title: Smart Contracts
 bookCollapseSection: true
-weight: 9
+weight: 15
 ---
 
 ## What are smart contracts?

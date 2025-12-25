@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain Networks on DeFi Scholar</title>
-    <link>http://localhost:1313/defischolar_site/docs/networks/</link>
+    <link>//localhost:1313/docs/networks/</link>
     <description>Recent content in Blockchain Networks on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/defischolar_site/docs/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/defischolar_site/docs/networks/top15/</link>
+      <link>//localhost:1313/docs/networks/top15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/networks/top15/</guid>
-      <description>&lt;h2 id=&#34;financial-metrics&#34;&gt;Financial metrics&lt;a class=&#34;anchor&#34; href=&#34;#financial-metrics&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Market Cap is how much the tokens are worth in dollars&lt;/li&gt;&#xA;&lt;li&gt;TVL - total locked value - is how much people lock (commit) to business (more on this later&lt;/li&gt;&#xA;&lt;li&gt;A higher TVL often indicates more trust and utility (people locking more of their tokens into business)&lt;/li&gt;&#xA;&lt;li&gt;You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL&lt;/li&gt;&#xA;&lt;li&gt;Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;the-top-15-networks&#34;&gt;The Top 15 Networks&lt;a class=&#34;anchor&#34; href=&#34;#the-top-15-networks&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;&#xD;&#xA;    &lt;iframe src=&#34;http://localhost:1313/defischolar_site/tables/L1_Networks.html&#34; width=&#34;100%&#34; height=&#34;500px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;</description>
+      <guid>//localhost:1313/docs/networks/top15/</guid>
+      <description>&lt;h2 id=&#34;financial-metrics&#34;&gt;Financial metrics&lt;a class=&#34;anchor&#34; href=&#34;#financial-metrics&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Market Cap is how much the tokens are worth in dollars&lt;/li&gt;&#xA;&lt;li&gt;TVL - total locked value - is how much people lock (commit) to business (more on this later&lt;/li&gt;&#xA;&lt;li&gt;A higher TVL often indicates more trust and utility (people locking more of their tokens into business)&lt;/li&gt;&#xA;&lt;li&gt;You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL&lt;/li&gt;&#xA;&lt;li&gt;Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;the-top-15-networks&#34;&gt;The Top 15 Networks&lt;a class=&#34;anchor&#34; href=&#34;#the-top-15-networks&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;&#xD;&#xA;    &lt;iframe src=&#34;//localhost:1313/tables/L1_Networks.html&#34; width=&#34;100%&#34; height=&#34;500px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/defischolar_site/docs/networks/the_big_three/</link>
+      <link>//localhost:1313/docs/networks/the_big_three/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/networks/the_big_three/</guid>
+      <guid>//localhost:1313/docs/networks/the_big_three/</guid>
       <description>&lt;h2 id=&#34;comparing-the-big-three&#34;&gt;Comparing the Big Three&lt;a class=&#34;anchor&#34; href=&#34;#comparing-the-big-three&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;p&gt;Each network makes different trade-offs in its architecture:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bitcoin (The Store of Value)&lt;/strong&gt;: Focused on maximum security and decentralization. It is slow (7 transactions per&#xA;second) but serves as the world’s most secure ledger.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ethereum (The World Computer)&lt;/strong&gt;: The leader in programmability. While it can be expensive and slower than newer&#xA;chains, it is the most trusted for complex financial applications.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solana (The Speed King)&lt;/strong&gt;: Built for mass adoption. It can handle up to 65,000 transactions per second with fees&#xA;under a penny, making it ideal for gaming and high-frequency trading.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;the-blockchain-trilemma&#34;&gt;The Blockchain Trilemma&lt;a class=&#34;anchor&#34; href=&#34;#the-blockchain-trilemma&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xA;&lt;p&gt;No blockchain is perfect. Developers must balance three competing priorities:&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/defischolar_site/docs/networks/network_browsers/</link>
+      <link>//localhost:1313/docs/networks/network_browsers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/networks/network_browsers/</guid>
+      <guid>//localhost:1313/docs/networks/network_browsers/</guid>
       <description>&lt;h1 id=&#34;network-browsers&#34;&gt;Network Browsers&lt;a class=&#34;anchor&#34; href=&#34;#network-browsers&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remember how we said that blockchain is a completely transparent system?&lt;/li&gt;&#xA;&lt;li&gt;This site - &lt;a href=&#34;https://www.blockchain.com/explorer&#34;&gt;Blockchain Explorer - Bitcoin Tracker &amp;amp; More | Blockchain.com&lt;/a&gt; -&#xA;lets you see all transactions in three major L1 networks&lt;/li&gt;&#xA;&lt;li&gt;As an example, &lt;a href=&#34;https://www.blockchain.com/explorer/blocks/btc/920900&#34;&gt;this link&lt;/a&gt;-lets you understand what&#xA;happened to a specific block&lt;/li&gt;&#xA;&lt;li&gt;This is &lt;a href=&#34;https://etherscan.io/&#34;&gt;Ethereum network browser&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Keep these links handy, even if you don’t immediately understand what’s going on&#xA;&lt;/blockquote&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/networks/offchains/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/networks/offchains/</guid>
+      <description>&lt;h3 id=&#34;off-chain-scaling-solutions-and-rollups-in-ethereum&#34;&gt;Off-Chain Scaling Solutions and Rollups in Ethereum&lt;a class=&#34;anchor&#34; href=&#34;#off-chain-scaling-solutions-and-rollups-in-ethereum&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;In the context of Ethereum blockchain scaling, off-chain mechanisms enable the execution of transactions outside the main Layer 1 (L1) chain while preserving its security guarantees. Rollups represent the predominant and most secure form of off-chain scaling solutions currently in use.&lt;/p&gt;&#xA;&lt;h4 id=&#34;1-off-chain-computation-general-principles&#34;&gt;1. Off-Chain Computation: General Principles&lt;a class=&#34;anchor&#34; href=&#34;#1-off-chain-computation-general-principles&#34;&gt;#&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Off-chain computation involves performing transaction execution and/or data management in an environment separate from the Ethereum main chain, which is resource-intensive and limited in throughput (approximately 15 transactions per second). The results are then anchored to L1 through cryptographic or cryptoeconomic proofs, allowing verification without full re-execution on the main chain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

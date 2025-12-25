@@ -1,8 +1,9 @@
-baseURL = 'https://markurusov1.github.io/defischolar_site/'
+# baseURL = 'https://markurusov1.github.io/defischolar_site/'
 languageCode = 'en-us'
 title = 'DeFi Scholar'
 
 canonifyURLs = true
+relativeURLs = false
 
 [module]
 [[module.imports]]
@@ -13,6 +14,7 @@ path = 'github.com/hugomods/icons/vendors/lucide'
 [params]
 # Options: "light" (always light), "dark" (always dark), "auto" (follow system – default)
 BookTheme = "auto"
+BookSearch = true
 
 [markup]
 [markup.goldmark]

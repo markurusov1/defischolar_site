@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uniswap on DeFi Scholar</title>
-    <link>http://localhost:1313/defischolar_site/docs/uniswap/</link>
+    <link>//localhost:1313/docs/uniswap/</link>
     <description>Recent content in Uniswap on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/defischolar_site/docs/uniswap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/uniswap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impermanent Loss</title>
-      <link>http://localhost:1313/defischolar_site/docs/uniswap/impermanent_loss/</link>
+      <link>//localhost:1313/docs/uniswap/impermanent_loss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/defischolar_site/docs/uniswap/impermanent_loss/</guid>
+      <guid>//localhost:1313/docs/uniswap/impermanent_loss/</guid>
       <description>&lt;h2 id=&#34;impermanent-loss-in-uniswap-v3&#34;&gt;Impermanent Loss in Uniswap V3&lt;a class=&#34;anchor&#34; href=&#34;#impermanent-loss-in-uniswap-v3&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Impermanent loss (IL)&lt;/strong&gt; is the difference in value between:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Holding your tokens in your wallet, and&lt;/li&gt;&#xA;&lt;li&gt;Providing them as liquidity in a Uniswap V3 pool.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It occurs when the price of the two tokens in the pool moves away from the price at which you deposited. The loss is&#xA;called “impermanent” because it only becomes real when you withdraw; if the price returns to the original level, the&#xA;loss disappears.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/uniswap/aave_uniswap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/uniswap/aave_uniswap/</guid>
+      <description>&lt;h3 id=&#34;overview-of-aave-and-uniswap&#34;&gt;Overview of Aave and Uniswap&lt;a class=&#34;anchor&#34; href=&#34;#overview-of-aave-and-uniswap&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Aave and Uniswap are two prominent protocols in the decentralized finance (DeFi) ecosystem on Ethereum and other blockchains. They serve complementary but distinct roles: Aave is a decentralized lending and borrowing platform, while Uniswap is a decentralized exchange (DEX) for token swaps. Their relationship is primarily &lt;strong&gt;integrative and symbiotic&lt;/strong&gt;, where Uniswap&amp;rsquo;s liquidity and trading infrastructure enhances Aave&amp;rsquo;s functionality, and vice versa, creating efficiencies for users in the broader DeFi space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/uniswap/uniswap_competitors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/uniswap/uniswap_competitors/</guid>
+      <description>&lt;p&gt;Uniswap is one of the leading decentralized exchanges (DEXes) in the DeFi space, primarily known for its automated market maker (AMM) model on Ethereum. Based on current market data and analyses as of late 2025, its top competitors include other prominent DEXes and aggregators that offer similar trading, liquidity provision, and swapping features, often with unique twists like lower fees, cross-chain support, or specialized pools.  Here are the top 3:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
