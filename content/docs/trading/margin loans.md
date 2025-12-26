@@ -52,9 +52,8 @@ If undercollateralized, the collateral is sold to repay the loan. Liquidators us
 Margin loans enable leveraged trading in a decentralized manner but require careful risk management.
 {{% /hint %}}
 
-## Example
+## A sample scenario 
 {{% hint success %}}
-### Simple, No-Hedges Version
 (Exactly how a pure cash equity market maker operates on a normal day with only stock + prime broker loan)
 
 **Stock:** TSLA  
@@ -63,7 +62,7 @@ Margin loans enable leveraged trading in a decentralized manner but require care
 **Prime broker:** Citadel Securities or Jane Street (they also act as PB for smaller firms)
 {{% /hint %}}
 
-**Start of Day (09:30 ET)**
+### **Start of Day (09:30 ET)**
 
 Northstar is flat: 0 shares, 0 cash borrowed.
 
@@ -72,7 +71,7 @@ Bid $420.00 × 20,000 shares
 Ask $420.01 × 20,000 shares  
 (1-cent wide – they want all the flow)
 
-**09:35 – Retail buying frenzy starts**
+### **09:35 – Retail buying frenzy starts**
 
 In the first 15 minutes, retail keeps hitting their offer.  
 Northstar sells 500,000 shares short at an average price of $420.15
@@ -88,7 +87,7 @@ Margin requirement: ≈ $28 million
 Northstar’s own capital used: $28 million  
 Effective leverage: ≈ 7.5× (they control $210m of inventory with $28m of their own money)
 
-**10:30 – Big seller appears (institution unloading)**
+### **10:30 – Big seller appears (institution unloading)**
 
 The same institution that was buying yesterday is now selling 1.2 million shares.  
 They lean on Northstar’s bid.
@@ -105,7 +104,7 @@ Margin requirement jumps to ≈ $52 million (still only ~15–18% because TSLA i
 
 Leverage at this moment: still ~6–7×
 
-**13:00 – Rebound**
+### **13:00 – Rebound**
 
 Elon tweets something; the stock rips from $418 to $424 in 30 minutes.
 
@@ -113,7 +112,7 @@ Northstar is long 400,000 shares → an unrealized gain of ~$6/share = +$2.4 mil
 
 They calmly sell their entire long inventory into the strength between $423.50 – $424.20, flattening out again.
 
-**End of Day (16:00 ET)**
+### **End of Day (16:00 ET)**
 
 Total shares traded by Northstar: 2.6 million round-trip  
 Average edge captured: $0.011 per share  
