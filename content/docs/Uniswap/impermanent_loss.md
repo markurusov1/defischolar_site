@@ -1,6 +1,6 @@
 ---
 title: Impermanent Loss
-weight: 31
+weight: 43
 ---
 
 ## Impermanent Loss in Uniswap V3

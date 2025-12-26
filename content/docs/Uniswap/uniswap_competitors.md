@@ -1,3 +1,8 @@
+---
+title: Impermanent Loss
+weight: 41
+---
+
 Uniswap is one of the leading decentralized exchanges (DEXes) in the DeFi space, primarily known for its automated market maker (AMM) model on Ethereum. Based on current market data and analyses as of late 2025, its top competitors include other prominent DEXes and aggregators that offer similar trading, liquidity provision, and swapping features, often with unique twists like lower fees, cross-chain support, or specialized pools.  Here are the top 3:
 
 Here is a comparison of **Uniswap** and its top 3 competitors (SushiSwap, PancakeSwap, and Curve Finance) based on the latest available data as of late December 2025. Metrics are approximate and aggregated across chains/deployments where applicable; trading volume refers to recent 24h figures, TVL reflects protocol-wide estimates, and number of currency pairs varies by version/chain (permissionless DEXs often have thousands of possible pairs via user-created pools).

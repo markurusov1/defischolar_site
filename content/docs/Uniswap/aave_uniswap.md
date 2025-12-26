@@ -1,3 +1,8 @@
+---
+title: AAVE and Uniswap
+weight: 42
+---
+
 ### Overview of Aave and Uniswap
 Aave and Uniswap are two prominent protocols in the decentralized finance (DeFi) ecosystem on Ethereum and other blockchains. They serve complementary but distinct roles: Aave is a decentralized lending and borrowing platform, while Uniswap is a decentralized exchange (DEX) for token swaps. Their relationship is primarily **integrative and symbiotic**, where Uniswap's liquidity and trading infrastructure enhances Aave's functionality, and vice versa, creating efficiencies for users in the broader DeFi space.
 

@@ -8,26 +8,30 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Hi
+<meta name="description" content="Section 3: Architectural Changes (Uniswap v3 Whitepaper)# Uniswap v3 introduces several architectural redesigns compared to v1 and v2. Some changes are required to support concentrated liquidity (custom price ranges per position), while others are independent enhancements for flexibility and modularity.
+3.1 Multiple Pools per Pair# v1/v2 Limitation: Only one pool per token pair (e.g., ETH/USDC), with a fixed 0.30% swap fee for all trades. This fee is often too high for low-volatility pairs (e.g., stablecoins like USDC/DAI). Too low for high-volatility or exotic pairs (needing higher LP compensation). v3 Solution: Multiple pools per token pair, each with a different swap fee tier. All pools created via the same factory contract. Initial fee tiers: 0.05% (stablecoins), 0.30% (default), 1.00% (volatile pairs). UNI governance can add new tiers later. Benefits: LPs and traders choose the optimal pool for risk/reward. Avoids liquidity fragmentation while allowing fee customization. 3.2 Non-Fungible Liquidity# Concentrated liquidity makes positions unique (custom ranges &#43; separate fees), so traditional fungible LP tokens are impossible.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://markurusov1.github.io/defischolar_site/docs/trading/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://markurusov1.github.io/defischolar_site/docs/uniswap/multiple_pools/">
   <meta property="og:site_name" content="DeFi Scholar">
-  <meta property="og:title" content="Trading">
-  <meta property="og:description" content="Hi">
+  <meta property="og:title" content="Multiple Pools">
+  <meta property="og:description" content="Section 3: Architectural Changes (Uniswap v3 Whitepaper)# Uniswap v3 introduces several architectural redesigns compared to v1 and v2. Some changes are required to support concentrated liquidity (custom price ranges per position), while others are independent enhancements for flexibility and modularity.
+3.1 Multiple Pools per Pair# v1/v2 Limitation: Only one pool per token pair (e.g., ETH/USDC), with a fixed 0.30% swap fee for all trades. This fee is often too high for low-volatility pairs (e.g., stablecoins like USDC/DAI). Too low for high-volatility or exotic pairs (needing higher LP compensation). v3 Solution: Multiple pools per token pair, each with a different swap fee tier. All pools created via the same factory contract. Initial fee tiers: 0.05% (stablecoins), 0.30% (default), 1.00% (volatile pairs). UNI governance can add new tiers later. Benefits: LPs and traders choose the optimal pool for risk/reward. Avoids liquidity fragmentation while allowing fee customization. 3.2 Non-Fungible Liquidity# Concentrated liquidity makes positions unique (custom ranges &#43; separate fees), so traditional fungible LP tokens are impossible.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
 
 
-  <meta itemprop="name" content="Trading">
-  <meta itemprop="description" content="Hi">
-  <meta itemprop="wordCount" content="1">
+  <meta itemprop="name" content="Multiple Pools">
+  <meta itemprop="description" content="Section 3: Architectural Changes (Uniswap v3 Whitepaper)# Uniswap v3 introduces several architectural redesigns compared to v1 and v2. Some changes are required to support concentrated liquidity (custom price ranges per position), while others are independent enhancements for flexibility and modularity.
+3.1 Multiple Pools per Pair# v1/v2 Limitation: Only one pool per token pair (e.g., ETH/USDC), with a fixed 0.30% swap fee for all trades. This fee is often too high for low-volatility pairs (e.g., stablecoins like USDC/DAI). Too low for high-volatility or exotic pairs (needing higher LP compensation). v3 Solution: Multiple pools per token pair, each with a different swap fee tier. All pools created via the same factory contract. Initial fee tiers: 0.05% (stablecoins), 0.30% (default), 1.00% (volatile pairs). UNI governance can add new tiers later. Benefits: LPs and traders choose the optimal pool for risk/reward. Avoids liquidity fragmentation while allowing fee customization. 3.2 Non-Fungible Liquidity# Concentrated liquidity makes positions unique (custom ranges &#43; separate fees), so traditional fungible LP tokens are impossible.">
+  <meta itemprop="wordCount" content="372">
 
-<title>Trading | DeFi Scholar</title>
+<title>Multiple Pools | DeFi Scholar</title>
 <link rel="icon" href="https://markurusov1.github.io/defischolar_site/favicon.png" >
 <link rel="manifest" href="https://markurusov1.github.io/defischolar_site/manifest.json">
-<link rel="canonical" href="https://markurusov1.github.io/defischolar_site/docs/trading/">
+<link rel="canonical" href="https://markurusov1.github.io/defischolar_site/docs/uniswap/multiple_pools/">
 <link rel="stylesheet" href="https://markurusov1.github.io/defischolar_site/book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
 
 
@@ -35,7 +39,6 @@ https://github.com/alex-shpak/hugo-book
   <script defer src="https://markurusov1.github.io/defischolar_site/en.search.min.524e7c13f952094a9a7a94844498bd84dc6b62e0a9b305ac2c707d307d3bf981.js" integrity="sha256-Uk58E/lSCUqaepSERJi9hNxrYuCpswWsLHB9MH07&#43;YE=" crossorigin="anonymous"></script>
 
 
-<link rel="alternate" type="application/rss+xml" href="https://markurusov1.github.io/defischolar_site/docs/trading/index.xml" title="DeFi Scholar" />
 
   <style>
      
@@ -115,7 +118,7 @@ https://github.com/alex-shpak/hugo-book
     [data-theme="dark"] #theme-toggle .moon { display: none; }
 </style>
 </head>
-<body dir="ltr" class="book-kind-section book-type-docs">
+<body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -525,9 +528,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-86968454265bdfa8453ede0de31a21dc" class="toggle" checked />
+    <input type="checkbox" id="section-86968454265bdfa8453ede0de31a21dc" class="toggle"  />
     <label for="section-86968454265bdfa8453ede0de31a21dc" class="flex">
-      <a href="https://markurusov1.github.io/defischolar_site/docs/trading/" class="active">
+      <a href="https://markurusov1.github.io/defischolar_site/docs/trading/" class="">
         Trading</a>
       <img src="https://markurusov1.github.io/defischolar_site/icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -590,7 +593,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-0bec55acdb444c915e0bc07c6a020c5d" class="toggle"  />
+    <input type="checkbox" id="section-0bec55acdb444c915e0bc07c6a020c5d" class="toggle" checked />
     <label for="section-0bec55acdb444c915e0bc07c6a020c5d" class="flex">
       <a href="https://markurusov1.github.io/defischolar_site/docs/uniswap/" class="">
         Uniswap</a>
@@ -664,7 +667,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://markurusov1.github.io/defischolar_site/docs/uniswap/multiple_pools/" class="">
+    <a href="https://markurusov1.github.io/defischolar_site/docs/uniswap/multiple_pools/" class="active">
       Multiple Pools</a>
   
 
@@ -739,21 +742,129 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://markurusov1.github.io/defischolar_site/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Trading</h3>
+  <h3>Multiple Pools</h3>
 
   <label for="toc-control">
+    
+    <img src="https://markurusov1.github.io/defischolar_site/icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#section-3-architectural-changes-uniswap-v3-whitepaper">Section 3: Architectural Changes (Uniswap v3 Whitepaper)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
  
       </header>
 
       
       
-  <article class="markdown book-article"><p>Hi</p>
+  <article class="markdown book-article"><h3 id="section-3-architectural-changes-uniswap-v3-whitepaper">Section 3: Architectural Changes (Uniswap v3 Whitepaper)<a class="anchor" href="#section-3-architectural-changes-uniswap-v3-whitepaper">#</a></h3>
+<p>Uniswap v3 introduces several architectural redesigns compared to v1 and v2. Some changes are required to support
+<strong>concentrated liquidity</strong> (custom price ranges per position), while others are independent enhancements for flexibility and modularity.</p>
+<h4 id="31-multiple-pools-per-pair">3.1 Multiple Pools per Pair<a class="anchor" href="#31-multiple-pools-per-pair">#</a></h4>
+<ul>
+<li><strong>v1/v2 Limitation</strong>: Only one pool per token pair (e.g., ETH/USDC), with a fixed <strong>0.30%</strong> swap fee for all trades.
+<ul>
+<li>This fee is often too high for low-volatility pairs (e.g., stablecoins like USDC/DAI).</li>
+<li>Too low for high-volatility or exotic pairs (needing higher LP compensation).</li>
+</ul>
+</li>
+<li><strong>v3 Solution</strong>: Multiple pools per token pair, each with a different <strong>swap fee tier</strong>.
+<ul>
+<li>All pools created via the same <strong>factory contract</strong>.</li>
+<li>Initial fee tiers: <strong>0.05%</strong> (stablecoins), <strong>0.30%</strong> (default), <strong>1.00%</strong> (volatile pairs).</li>
+<li>UNI governance can add new tiers later.</li>
+</ul>
+</li>
+<li><strong>Benefits</strong>:
+<ul>
+<li>LPs and traders choose the optimal pool for risk/reward.</li>
+<li>Avoids liquidity fragmentation while allowing fee customization.</li>
+</ul>
+</li>
+</ul>
+<h4 id="32-non-fungible-liquidity">3.2 Non-Fungible Liquidity<a class="anchor" href="#32-non-fungible-liquidity">#</a></h4>
+<p>Concentrated liquidity makes positions <strong>unique</strong> (custom ranges + separate fees), so traditional fungible LP tokens are impossible.</p>
+<h5 id="321-non-compounding-fees">3.2.1 Non-Compounding Fees<a class="anchor" href="#321-non-compounding-fees">#</a></h5>
+<ul>
+<li><strong>v1/v2 Behavior</strong>: Swap fees automatically added back to the pool as more liquidity → passive growth and <strong>compounding</strong>.</li>
+<li><strong>v3 Behavior</strong>: Fees stored <strong>separately</strong> as the <strong>actual tokens</strong> paid (not reinvested automatically).
+<ul>
+<li>LPs must manually <strong>claim</strong> and reinvest fees if desired.</li>
+</ul>
+</li>
+<li><strong>Reason</strong>: Custom positions prevent automatic reinvestment without losing precision.</li>
+</ul>
+<h5 id="322-removal-of-native-liquidity-tokens">3.2.2 Removal of Native Liquidity Tokens<a class="anchor" href="#322-removal-of-native-liquidity-tokens">#</a></h5>
+<ul>
+<li><strong>v1/v2 Behavior</strong>: Pool contract <strong>is</strong> an ERC-20 token (LP shares minted/burned on deposit/withdraw).
+<ul>
+<li>Convenient but violates the &ldquo;core vs. periphery&rdquo; design (core should be minimal; extras in external contracts).</li>
+<li>Discourages third-party innovations (e.g., better wrappers).</li>
+</ul>
+</li>
+<li><strong>v3 Behavior</strong>:
+<ul>
+<li><strong>No ERC-20</strong> in the core pool contract.</li>
+<li>Liquidity tracked <strong>internally</strong> via position data.</li>
+<li><strong>Periphery contracts</strong> (built by anyone) can wrap positions:
+<ul>
+<li>ERC-20 wrappers for fungibility (with custom fee handling/reinvestment).</li>
+<li>ERC-721 NFTs for individual positions (including accrued fees) → enables trading/lending.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Uniswap v1/v2</th>
+          <th>Uniswap v3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Pools per Pair</td>
+          <td>1 (fixed 0.30% fee)</td>
+          <td>Multiple (variable fees: 0.05%, 0.30%, 1%+)</td>
+      </tr>
+      <tr>
+          <td>Fee Compounding</td>
+          <td>Automatic (reinvested as liquidity)</td>
+          <td>Manual (fees as raw tokens)</td>
+      </tr>
+      <tr>
+          <td>LP Token Standard</td>
+          <td>Native ERC-20 in core</td>
+          <td>None in core; periphery ERC-20/ERC-721 optional</td>
+      </tr>
+      <tr>
+          <td>Position Fungibility</td>
+          <td>Fully fungible</td>
+          <td>Non-fungible (custom ranges)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Overall Impact</strong>: These changes enable concentrated liquidity, give LPs more control, keep the core lean, and encourage ecosystem innovation (e.g., vaults, NFT-based DeFi composability)</p>
 </article>
  
       
@@ -782,16 +893,16 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="https://markurusov1.github.io/defischolar_site/docs/defi_basics/rwa/" class="flex align-center">
+      <a href="https://markurusov1.github.io/defischolar_site/docs/uniswap/concentrated_liq/" class="flex align-center">
         <img src="https://markurusov1.github.io/defischolar_site/icons/backward.svg" class="book-icon" alt="Backward" />
-        <span>RWA - Real World Assets</span>
+        <span>Concentrated Liquidity</span>
       </a>
     
     </span>
     <span>
     
-      <a href="https://markurusov1.github.io/defischolar_site/docs/trading/l2-market-order/" class="flex align-center">
-        <span>L2 Order Book</span>
+      <a href="https://markurusov1.github.io/defischolar_site/docs/research/" class="flex align-center">
+        <span>Research</span>
         <img src="https://markurusov1.github.io/defischolar_site/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
@@ -824,6 +935,25 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
     
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#section-3-architectural-changes-uniswap-v3-whitepaper">Section 3: Architectural Changes (Uniswap v3 Whitepaper)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
   
  
   </main>
