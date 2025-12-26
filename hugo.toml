@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'DeFi Scholar'
 
 canonifyURLs = true
-relativeURLs = false
 
 [module]
 [[module.imports]]

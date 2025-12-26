@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on DeFi Scholar</title>
-    <link>https://markurusov1.github.io/defischolar_site/docs/research/</link>
-    <description>Recent content in Research on DeFi Scholar</description>
+    <title>DeFi Scholar</title>
+    <link>http://localhost:1313/defischolar_site/docs/research/</link>
+    <description>Recent content on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://markurusov1.github.io/defischolar_site/docs/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/defischolar_site/docs/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/defischolar_site/docs/research/benefits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/defischolar_site/docs/research/benefits/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The dynamic portfolio margin loan management protocol offers transformative benefits for DeFi liquidity providers (LPs), particularly those using Uniswap v3 positions as collateral. By incorporating impermanent loss (IL) stress-testing and VaR-style models, the system can reduce liquidations by 95-99% compared to fixed-LTV models in protocols like Aave, where recent analyses show liquidation auctions often result in collateral discounts of around 7.6%. This proactive approach—simulating historical crashes like the 2022 FTX collapse or 2025 market dips—triggers soft adjustments such as auto-rebalancing before full liquidations occur, safeguarding LPs from catastrophic losses seen in events like the October 2025 crypto liquidation catastrophe, which generated record fees for Uniswap but wiped out billions in positions. Furthermore, it enables sophisticated LPs to access 80-90% LTV ratios with 5-10× leverage, surpassing current DeFi standards where ETH collateral tops out at 82% LTV on platforms like Aave, while LP positions often face lower limits due to unmitigated IL risks. This unlocks greater capital efficiency, allowing LPs to amplify yields without the constant threat of forced sales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/</guid>
+      <description>&lt;h3 id=&#34;portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation&#34;&gt;Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation&lt;a class=&#34;anchor&#34; href=&#34;#portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Portfolio margin is a sophisticated margining system used primarily in derivatives trading. It differs from simpler margin types (like Regulation T margin in TradFi or fixed LTV in basic DeFi lending) by focusing on the overall &lt;strong&gt;risk of the entire portfolio&lt;/strong&gt; rather than isolated positions or just the current market value.&lt;/p&gt;&#xA;&lt;p&gt;Below is how collateral value is determined in both TradFi (Traditional Finance) and DeFi (Decentralized Finance).&#xA;This is based on standard practices and emerging implementations.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

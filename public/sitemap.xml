@@ -2,78 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/start/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/start/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/start/basic_terminology/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/start/basic_terminology/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/currencies_and_trust/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/currencies_and_trust/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/blockchain/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/blockchain/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/networks/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/networks/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/networks/top15/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/networks/top15/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/networks/the_big_three/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/networks/the_big_three/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/networks/network_browsers/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/networks/network_browsers/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/smart_contracts/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/smart_contracts/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/pools_farming/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/pools_farming/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/staking/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/staking/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/vaults/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/vaults/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/amm/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/amm/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/collateralized_lending/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/collateralized_lending/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/flash_loans/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/flash_loans/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/defi_basics/rwa/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/defi_basics/rwa/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/trading/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/trading/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/trading/l2-market-order/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/trading/l2-market-order/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/trading/margin-loans/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/trading/margin-loans/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/trading/market-making/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/trading/market-making/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/uniswap_competitors/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/uniswap_competitors/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/aave_uniswap/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/aave_uniswap/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/impermanent_loss/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/impermanent_loss/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/concentrated_liq/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/concentrated_liq/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/uniswap/multiple_pools/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/uniswap/multiple_pools/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/research/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/research/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/</loc>
+    <loc>http://localhost:1313/defischolar_site/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/blockchain/intro_and_concepts/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/blockchain/intro_and_concepts/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/blockchain/miners_and_ledger/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/blockchain/miners_and_ledger/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/blockchain/sample_transaction/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/blockchain/sample_transaction/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/networks/offchains/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/networks/offchains/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/smart_contracts/polymarket/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/research/benefits/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/categories/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/docs/</loc>
+    <loc>http://localhost:1313/defischolar_site/docs/smart_contracts/polymarket/</loc>
   </url><url>
-    <loc>https://markurusov1.github.io/defischolar_site/tags/</loc>
+    <loc>http://localhost:1313/defischolar_site/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/defischolar_site/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/defischolar_site/tags/</loc>
   </url>
 </urlset>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trading on DeFi Scholar</title>
-    <link>https://markurusov1.github.io/defischolar_site/docs/trading/</link>
+    <link>http://localhost:1313/defischolar_site/docs/trading/</link>
     <description>Recent content in Trading on DeFi Scholar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://markurusov1.github.io/defischolar_site/docs/trading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/defischolar_site/docs/trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>L2 Order Book</title>
-      <link>https://markurusov1.github.io/defischolar_site/docs/trading/l2-market-order/</link>
+      <link>http://localhost:1313/defischolar_site/docs/trading/l2-market-order/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markurusov1.github.io/defischolar_site/docs/trading/l2-market-order/</guid>
+      <guid>http://localhost:1313/defischolar_site/docs/trading/l2-market-order/</guid>
       <description>&lt;h2 id=&#34;layer-2-l2-networks&#34;&gt;Layer 2 (L2) Networks&lt;a class=&#34;anchor&#34; href=&#34;#layer-2-l2-networks&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In the world of Decentralized Finance (DeFi), Layer 2 (L2) solutions are essential for scaling blockchain networks like Ethereum, reducing congestion and high gas fees on the base layer (Layer 1). An L2 order book refers to a trading mechanism built on these scalable layers, where buy and sell orders for cryptocurrencies or tokens are matched in a transparent, decentralized manner.&#xA;Unlike Automated Market Makers (AMMs) that rely on liquidity pools, an order book model lists all open orders by price and quantity, allowing traders to place limit orders, market orders, or stop-loss orders directly on the L2 chain. This provides tighter spreads, better price discovery, and lower slippage for high-volume trades.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Margin Loans</title>
-      <link>https://markurusov1.github.io/defischolar_site/docs/trading/margin-loans/</link>
+      <link>http://localhost:1313/defischolar_site/docs/trading/margin-loans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markurusov1.github.io/defischolar_site/docs/trading/margin-loans/</guid>
+      <guid>http://localhost:1313/defischolar_site/docs/trading/margin-loans/</guid>
       <description>&lt;h2 id=&#34;margin-loans&#34;&gt;Margin Loans&lt;a class=&#34;anchor&#34; href=&#34;#margin-loans&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Margin loans allow traders to borrow assets against collateral to increase their position size (leverage). In DeFi, these loans are provided through decentralized lending protocols using smart contracts.&#xA;Traders deposit collateral (e.g., ETH) and borrow another asset (e.g., USDC) to trade with leverage (2x, 5x, 10x, etc.).&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-margin-loans-work&#34;&gt;How Margin Loans Work&lt;a class=&#34;anchor&#34; href=&#34;#how-margin-loans-work&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collateral Deposit:&lt;/strong&gt;&#xA;Deposit assets into a lending protocol. The loan-to-value (LTV) ratio determines the maximum borrow amount (e.g., 75% LTV means 100 collateral allows borrowing 75).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Borrowing:&lt;/strong&gt;&#xA;Select the asset and amount to borrow. Interest accrues continuously based on supply and demand.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Leveraged Trading:&lt;/strong&gt;&#xA;Use borrowed funds to open larger positions in spot, perpetuals, or options markets.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Health Factor / Collateral Ratio:&lt;/strong&gt;&#xA;The protocol monitors the collateral-to-debt ratio. If it falls below a threshold (e.g., 150%), the position becomes eligible for liquidation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liquidation:&lt;/strong&gt;&#xA;If undercollateralized, the collateral is sold to repay the loan. Liquidators usually receive a fee.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;key-metrics&#34;&gt;Key Metrics&lt;a class=&#34;anchor&#34; href=&#34;#key-metrics&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Loan-to-Value (LTV):&lt;/strong&gt; Maximum borrow amount relative to collateral.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liquidation Threshold:&lt;/strong&gt; Collateral ratio below which liquidation occurs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interest Rates:&lt;/strong&gt; Variable rates determined by utilization (borrowed vs. available liquidity).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;a class=&#34;anchor&#34; href=&#34;#benefits&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Amplified returns&lt;/strong&gt; — Leverage magnifies gains.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Capital efficiency&lt;/strong&gt; — Trade larger positions with less capital.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No credit checks&lt;/strong&gt; — Permissionless and instant.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;risks&#34;&gt;Risks&lt;a class=&#34;anchor&#34; href=&#34;#risks&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Liquidation risk&lt;/strong&gt; — Volatility can trigger forced sales.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interest costs&lt;/strong&gt; — Rates can spike during high demand.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Market manipulation&lt;/strong&gt; — Oracle price feeds must be reliable.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;best-practices&#34;&gt;Best Practices&lt;a class=&#34;anchor&#34; href=&#34;#best-practices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Maintain a high collateral ratio (e.g., 200%+).&lt;/li&gt;&#xA;&lt;li&gt;Use stop-loss orders to manage risk.&lt;/li&gt;&#xA;&lt;li&gt;Monitor positions during volatile periods.&lt;/li&gt;&#xA;&lt;li&gt;Borrow conservatively and understand liquidation mechanics.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Margin loans enable leveraged trading in a decentralized manner but require careful risk management.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Market Making</title>
-      <link>https://markurusov1.github.io/defischolar_site/docs/trading/market-making/</link>
+      <link>http://localhost:1313/defischolar_site/docs/trading/market-making/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://markurusov1.github.io/defischolar_site/docs/trading/market-making/</guid>
+      <guid>http://localhost:1313/defischolar_site/docs/trading/market-making/</guid>
       <description>&lt;h2 id=&#34;what-is-market-making&#34;&gt;What is Market Making?&lt;a class=&#34;anchor&#34; href=&#34;#what-is-market-making&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Market making is a crucial strategy in DeFi trading where participants provide liquidity to markets by continuously quoting buy and sell prices for assets. On our platform, market makers help ensure smooth trading by narrowing bid-ask spreads, reducing volatility, and enabling instant executions for other users.&#xA;In contrast to traditional finance, DeFi market making is permissionless—anyone can participate by depositing assets into liquidity pools or order books, earning fees from trades that use their liquidity.&lt;/p&gt;</description>
     </item>
   </channel>

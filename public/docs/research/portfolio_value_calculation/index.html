@@ -8,26 +8,30 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Financial metrics# Market Cap is how much the tokens are worth in dollars TVL - total locked value - is how much people lock (commit) to business (more on this later A higher TVL often indicates more trust and utility (people locking more of their tokens into business) You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed) The Top 15 Networks# ">
+<meta name="description" content="Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation# Portfolio margin is a sophisticated margining system used primarily in derivatives trading. It differs from simpler margin types (like Regulation T margin in TradFi or fixed LTV in basic DeFi lending) by focusing on the overall risk of the entire portfolio rather than isolated positions or just the current market value.
+Below is how collateral value is determined in both TradFi (Traditional Finance) and DeFi (Decentralized Finance). This is based on standard practices and emerging implementations.
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/defischolar_site/docs/networks/top15/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/">
   <meta property="og:site_name" content="DeFi Scholar">
   <meta property="og:title" content="DeFi Scholar">
-  <meta property="og:description" content="Financial metrics# Market Cap is how much the tokens are worth in dollars TVL - total locked value - is how much people lock (commit) to business (more on this later A higher TVL often indicates more trust and utility (people locking more of their tokens into business) You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed) The Top 15 Networks#">
+  <meta property="og:description" content="Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation# Portfolio margin is a sophisticated margining system used primarily in derivatives trading. It differs from simpler margin types (like Regulation T margin in TradFi or fixed LTV in basic DeFi lending) by focusing on the overall risk of the entire portfolio rather than isolated positions or just the current market value.
+Below is how collateral value is determined in both TradFi (Traditional Finance) and DeFi (Decentralized Finance). This is based on standard practices and emerging implementations.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 
 
   <meta itemprop="name" content="DeFi Scholar">
-  <meta itemprop="description" content="Financial metrics# Market Cap is how much the tokens are worth in dollars TVL - total locked value - is how much people lock (commit) to business (more on this later A higher TVL often indicates more trust and utility (people locking more of their tokens into business) You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed) The Top 15 Networks#">
-  <meta itemprop="wordCount" content="89">
+  <meta itemprop="description" content="Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation# Portfolio margin is a sophisticated margining system used primarily in derivatives trading. It differs from simpler margin types (like Regulation T margin in TradFi or fixed LTV in basic DeFi lending) by focusing on the overall risk of the entire portfolio rather than isolated positions or just the current market value.
+Below is how collateral value is determined in both TradFi (Traditional Finance) and DeFi (Decentralized Finance). This is based on standard practices and emerging implementations.">
+  <meta itemprop="wordCount" content="621">
 
-<title>Top15 | DeFi Scholar</title>
+<title>Portfolio Value Calculation | DeFi Scholar</title>
 <link rel="icon" href="http://localhost:1313/defischolar_site/favicon.png" >
 <link rel="manifest" href="http://localhost:1313/defischolar_site/manifest.json">
-<link rel="canonical" href="http://localhost:1313/defischolar_site/docs/networks/top15/">
+<link rel="canonical" href="http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/">
 <link rel="stylesheet" href="http://localhost:1313/defischolar_site/book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
 
 
@@ -287,7 +291,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-1e173b399e39960c431a50680d8dfd31" class="toggle" checked />
+    <input type="checkbox" id="section-1e173b399e39960c431a50680d8dfd31" class="toggle"  />
     <label for="section-1e173b399e39960c431a50680d8dfd31" class="flex">
       <a href="http://localhost:1313/defischolar_site/docs/networks/" class="">
         Blockchain Networks</a>
@@ -305,7 +309,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="http://localhost:1313/defischolar_site/docs/networks/top15/" class="active">
+    <a href="http://localhost:1313/defischolar_site/docs/networks/top15/" class="">
       Top15</a>
   
 
@@ -682,7 +686,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle"  />
+    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle" checked />
     <label for="section-ad0f001a08f35aaae41256e1ef072b72" class="flex">
       <a role="button" class="">
         Research</a>
@@ -714,7 +718,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/" class="">
+    <a href="http://localhost:1313/defischolar_site/docs/research/portfolio_value_calculation/" class="active">
       Portfolio Value Calculation</a>
   
 
@@ -766,7 +770,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="http://localhost:1313/defischolar_site/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Top15</h3>
+  <h3>Portfolio Value Calculation</h3>
 
   <label for="toc-control">
     
@@ -782,8 +786,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#financial-metrics">Financial metrics</a></li>
-    <li><a href="#the-top-15-networks">The Top 15 Networks</a></li>
+    <li>
+      <ul>
+        <li><a href="#portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation">Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -796,20 +803,61 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h2 id="financial-metrics">Financial metrics<a class="anchor" href="#financial-metrics">#</a></h2>
-<blockquote class="book-hint info">
+  <article class="markdown book-article"><h3 id="portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation">Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation<a class="anchor" href="#portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation">#</a></h3>
+<p>Portfolio margin is a sophisticated margining system used primarily in derivatives trading. It differs from simpler margin types (like Regulation T margin in TradFi or fixed LTV in basic DeFi lending) by focusing on the overall <strong>risk of the entire portfolio</strong> rather than isolated positions or just the current market value.</p>
+<p>Below is how collateral value is determined in both TradFi (Traditional Finance) and DeFi (Decentralized Finance).
+This is based on standard practices and emerging implementations.</p>
+<h4 id="key-concept-not-just-current-market-value">Key Concept: Not Just Current Market Value<a class="anchor" href="#key-concept-not-just-current-market-value">#</a></h4>
 <ul>
-<li>Market Cap is how much the tokens are worth in dollars</li>
-<li>TVL - total locked value - is how much people lock (commit) to business (more on this later</li>
-<li>A higher TVL often indicates more trust and utility (people locking more of their tokens into business)</li>
-<li>You can see that while Ethereum is about 1/4th of Bitcoin in terms of MarketCap, it is 10X in TVL</li>
-<li>Meaning people do a lot of business on Ethereum (which is really where De-Fi started and developed)</li>
+<li><strong>Is it calculated against the current market value?</strong> No. Portfolio margin uses <strong>risk-based models</strong> that simulate potential future losses under various market scenarios. While current prices are a starting point (via real-time data or oracles), the calculation incorporates stress tests, correlations between assets, volatilities, and offsets (e.g., hedges that reduce net risk). This allows for higher leverage (e.g., 5-15x in TradFi) but with dynamic adjustments to prevent excessive risk.</li>
+<li><strong>Why not current value alone?</strong> The current market value ignores portfolio diversification, hedging, and extreme events (e.g., market crashes). Risk models provide a more accurate &ldquo;effective&rdquo; value, often leading to lower margin requirements for well-hedged portfolios.</li>
 </ul>
-</blockquote>
-<h2 id="the-top-15-networks">The Top 15 Networks<a class="anchor" href="#the-top-15-networks">#</a></h2>
-<div style="display: flex; justify-content: center;">
-    <iframe src="http://localhost:1313/defischolar_site/tables/L1_Networks.html" width="100%" height="500px" frameborder="0"></iframe>
-</div></article>
+<h4 id="how-collateral-value-is-calculated">How Collateral Value Is Calculated<a class="anchor" href="#how-collateral-value-is-calculated">#</a></h4>
+<p>Collateral value in portfolio margin is assessed as a <strong>risk-adjusted net value</strong>, not nominal current value. It involves:</p>
+<ol>
+<li><strong>Netting Positions</strong>: Long and short positions are offset against each other (e.g., a long call and short put might cancel out some risk).</li>
+<li><strong>Risk Arrays/Stress Tests</strong>: Simulate price moves (e.g., ±10-30% shocks) across the portfolio to estimate worst-case losses.</li>
+<li><strong>Value at Risk (VaR) or Similar Metrics</strong>: Calculate potential losses at a confidence level (e.g., 99% VaR over 1-2 days).</li>
+<li><strong>Dynamic Updates</strong>: Recalculated frequently (seconds to minutes in TradFi; block-by-block in DeFi).</li>
+<li><strong>Loan-to-Value (LTV) or Margin Requirement</strong>: The borrowable amount is derived from this risk-adjusted value, often 70-90% LTV for low-risk portfolios.</li>
+</ol>
+<table>
+  <thead>
+      <tr>
+          <th>Aspect</th>
+          <th>TradFi (e.g., via brokers like Interactive Brokers, Charles Schwab)</th>
+          <th>DeFi (Emerging Protocols, e.g., Hyperliquid, Kyan, Delta Exchange)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Basis of Calculation</strong></td>
+          <td>Risk-based: Uses models like TIMS (Theoretical Intermarket Margin System) or proprietary algorithms. Simulates market moves (e.g., divide price range into 10 points, calculate P&amp;L at each). Accounts for correlations, Greeks (delta, gamma for options), and stress scenarios (e.g., 2008 crash analogs).</td>
+          <td>Risk-based: Similar to TradFi, but on-chain. Uses oracles (e.g., Chainlink) for prices, then applies VaR-like models or LTV ratios (0-1) based on portfolio risk. Simulates shocks and offsets; dynamic, but constrained by blockchain (e.g., gas costs).</td>
+      </tr>
+      <tr>
+          <td><strong>Collateral Valuation Example</strong></td>
+          <td>If your portfolio has $100K in stocks + hedging options, current value might be $100K, but risk model shows max loss of $20K under stress → effective collateral value ~$80K (after offsets). Margin requirement: 15-30% of notional, allowing higher borrow.</td>
+          <td>For a DeFi LP position (e.g., Uniswap v3 NFT as collateral), current value might be $10K, but IL stress test shows $3K potential loss → effective value $7K. LTV adjusts dynamically (e.g., 80% borrow if low risk). Not standard in all DeFi (e.g., Aave uses simpler cross-margin), but growing in derivatives DEXs.</td>
+      </tr>
+      <tr>
+          <td><strong>Advantages Over Current Value</strong></td>
+          <td>Higher efficiency: Well-hedged portfolios need less margin (e.g., 6:1 leverage vs. 2:1 in Reg T). Reduces unnecessary liquidations.</td>
+          <td>Capital efficiency: Allows 5-10x leverage on LP positions without fixed LTV traps. Addresses impermanent loss (IL) via simulations, as proposed in your attached documents.</td>
+      </tr>
+      <tr>
+          <td><strong>Limitations</strong></td>
+          <td>Requires approval (e.g., $100K+ account, experience). Can lead to higher risk if models fail (e.g., in black swan events).</td>
+          <td>Still nascent; relies on oracles (vulnerable to manipulation). Higher complexity/gas fees. Not widespread (e.g., absent in basic lending like Compound).</td>
+      </tr>
+      <tr>
+          <td><strong>Eligibility</strong></td>
+          <td>For experienced traders with derivatives-heavy accounts (e.g., options, futures). Regulated by FINRA/SEC.</td>
+          <td>Varies by protocol; often for perp DEXs or advanced lending. No KYC, but smart contract risks apply.</td>
+      </tr>
+  </tbody>
+</table>
+</article>
  
       
 
@@ -837,18 +885,13 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="http://localhost:1313/defischolar_site/docs/networks/" class="flex align-center">
+      <a href="http://localhost:1313/defischolar_site/docs/research/benefits/" class="flex align-center">
         <img src="http://localhost:1313/defischolar_site/icons/backward.svg" class="book-icon" alt="Backward" />
-        <span>Blockchain Networks</span>
+        <span>Benefits</span>
       </a>
     
     </span>
     <span>
-    
-      <a href="http://localhost:1313/defischolar_site/docs/networks/the_big_three/" class="flex align-center">
-        <span>The Big Three</span>
-        <img src="http://localhost:1313/defischolar_site/icons/forward.svg" class="book-icon" alt="Forward" />
-      </a>
     
     </span>
   </div>
@@ -886,8 +929,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#financial-metrics">Financial metrics</a></li>
-    <li><a href="#the-top-15-networks">The Top 15 Networks</a></li>
+    <li>
+      <ul>
+        <li><a href="#portfolio-margin-in-tradfi-and-defi-calculation-and-collateral-valuation">Portfolio Margin in TradFi and DeFi: Calculation and Collateral Valuation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
