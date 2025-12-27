@@ -117,4 +117,4 @@ By 2026, expect:
 - **Sustainability**: Carbon-neutral L2s and fee-burn mechanisms.
 - **Mass Adoption**: With TVL projected at $500B+, AMMs could capture 20% of global FX volume if regs harmonize.
 
-AMMs aren't perfect, but their evolution from simple swaps to cross-chain powerhouses underscores DeFi's resilience. For builders, start with Uniswap forks in Solidity; for traders, aggregate via Jupiter or 1inch. Dive deeper? Experiment on testnets like Skate's.
+AMMs aren't perfect, but their evolution from simple swaps to cross-chain powerhouses underscores DeFi's resilience. For builders, start with Uniswap forks in Solidity; for traders, aggregate it via Jupiter or 1inch. Dive deeper? Experiment on testnets like Skate's.

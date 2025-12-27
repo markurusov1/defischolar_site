@@ -37,7 +37,7 @@ governance token UNI empowers community-driven decisions on protocol upgrades
 - These rivals often differentiate through niche focuses, such as stable assets or cross-chain compatibility, but
   Uniswap's first-mover advantage, security track record, and ongoing innovations continue to solidify its leadership in
   the space.
-  ere is a comparison of **Uniswap** and its top 3 competitors (SushiSwap, PancakeSwap, and Curve Finance) based on the latest available data as of late December 2025. Metrics are approximate and aggregated across chains/deployments where applicable; trading volume refers to recent 24h figures, TVL reflects protocol-wide estimates, and number of currency pairs varies by version/chain (permissionless DEXs often have thousands of possible pairs via user-created pools).
+  ere is a comparison of **Uniswap** and its top 3 competitors (SushiSwap, PancakeSwap, and Curve Finance) based on the latest available data as of late December 2025. Metrics are approximate and aggregated across chains/deployments where applicable; trading volume refers to recent 24h figures, TVL reflects protocol-wide estimates, and the number of currency pairs varies by version/chain (permissionless DEXs often have thousands of possible pairs via user-created pools).
 
 | DEX Name      | Number of Currency Pairs Traded | TVL (approx.)     | Trade Volume (24h approx.) |
 |---------------|---------------------------------|-------------------|----------------------------|
