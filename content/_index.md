@@ -3,22 +3,18 @@ title: ""
 layout: landing
 ---
 
-<div class="book-hero">
+# DeFi Scholar: Decentralized Finance study and research notes {anchor=false}
 
-# DeFi Scholar {anchor=false}
-Decentralized Finance study and research notes
-
-{{<button href="/docs/start">}}Let's get started!{{</button>}}
-</div>
 {{% columns %}}
 
-- ## The Journey
+## The Journey
 >  I started this project out of interest in Finance as a future college major. DeFi seemed to be much more
 > accessible, yet there was a lot to learn. As a high schooler myself, I wanted to create a resource that would
 > make DeFi easier to understand for other high schoolers. Thus, DeFi Scholar was born.
 ## The Project
->  To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V4 protocol. This
-> site contains the notes I took along the way, organized into the sections below.
+> To stay practical, I decided to create (code) an actual DeFi application, centered on Uniswap V3 protocol. This
+> site contains the notes I took along the way, organized into the sections below. The next step will be the actual 
+> research, followed by the implementation of the app.
 >{{% /columns %}}
 
 {{% columns %}}
@@ -70,6 +66,8 @@ __Summary__: Learn how money is made in DeFi through liquidity provision. Unlike
 banks provide liquidity, DeFi allows anyone to "farm" pools by locking their tokens to facilitate trades in exchange for a portion of the transaction fees.
   {{< /card >}}
   {{% /columns %}}
+
+{{<button href="/docs/start">}}Let's get started!{{</button>}}
 
 ### License badges
 [{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)

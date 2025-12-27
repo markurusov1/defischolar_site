@@ -20,7 +20,7 @@ If issues arise (e.g., DNS not verifying):
 
 This follows current (2025) official GitHub and Namecheap guidelines for a **www subdomain** setup. Your site should now be live at www.defischolar.com!
 
-### Existing namecheap
+### Existing namecheap settings
 CNAME record
 Host: WWW
 Value: parkingpage.namecheap.com
@@ -30,3 +30,7 @@ URL Redirect Record
 @
 Value: http://www.defischolar.com/
 Unmasked
+
+### Noteworthy
+- git takes time issuing a certificate to namecheap
+- when/if gitpages loses the "DNS verified" status, remove and re-add the domain name
