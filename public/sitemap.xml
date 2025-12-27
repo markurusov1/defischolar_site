@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>./docs/start/</loc>
+    <loc>//localhost:1313/docs/start/</loc>
   </url><url>
-    <loc>./docs/start/basic_terminology/</loc>
+    <loc>//localhost:1313/docs/start/basic_terminology/</loc>
   </url><url>
-    <loc>./docs/currencies_and_trust/</loc>
+    <loc>//localhost:1313/docs/currencies_and_trust/</loc>
   </url><url>
-    <loc>./docs/blockchain/</loc>
+    <loc>//localhost:1313/docs/blockchain/</loc>
   </url><url>
-    <loc>./docs/networks/</loc>
+    <loc>//localhost:1313/docs/networks/</loc>
   </url><url>
-    <loc>./docs/networks/top15/</loc>
+    <loc>//localhost:1313/docs/networks/top15/</loc>
   </url><url>
-    <loc>./docs/networks/the_big_three/</loc>
+    <loc>//localhost:1313/docs/networks/the_big_three/</loc>
   </url><url>
-    <loc>./docs/networks/network_browsers/</loc>
+    <loc>//localhost:1313/docs/networks/network_browsers/</loc>
   </url><url>
-    <loc>./docs/smart_contracts/</loc>
+    <loc>//localhost:1313/docs/smart_contracts/</loc>
   </url><url>
-    <loc>./docs/defi_basics/</loc>
+    <loc>//localhost:1313/docs/defi_basics/</loc>
   </url><url>
-    <loc>./docs/defi_basics/pools_farming/</loc>
+    <loc>//localhost:1313/docs/defi_basics/pools_farming/</loc>
   </url><url>
-    <loc>./docs/defi_basics/staking/</loc>
+    <loc>//localhost:1313/docs/defi_basics/staking/</loc>
   </url><url>
-    <loc>./docs/defi_basics/vaults/</loc>
+    <loc>//localhost:1313/docs/defi_basics/vaults/</loc>
   </url><url>
-    <loc>./docs/defi_basics/amm/</loc>
+    <loc>//localhost:1313/docs/defi_basics/amm/</loc>
   </url><url>
-    <loc>./docs/defi_basics/collateralized_lending/</loc>
+    <loc>//localhost:1313/docs/defi_basics/collateralized_lending/</loc>
   </url><url>
-    <loc>./docs/defi_basics/flash_loans/</loc>
+    <loc>//localhost:1313/docs/defi_basics/flash_loans/</loc>
   </url><url>
-    <loc>./docs/defi_basics/rwa/</loc>
+    <loc>//localhost:1313/docs/defi_basics/rwa/</loc>
   </url><url>
-    <loc>./docs/trading/</loc>
+    <loc>//localhost:1313/docs/trading/</loc>
   </url><url>
-    <loc>./docs/trading/l2-market-order/</loc>
+    <loc>//localhost:1313/docs/trading/l2-market-order/</loc>
   </url><url>
-    <loc>./docs/trading/margin-loans/</loc>
+    <loc>//localhost:1313/docs/trading/margin-loans/</loc>
   </url><url>
-    <loc>./docs/trading/market-making/</loc>
+    <loc>//localhost:1313/docs/trading/market-making/</loc>
   </url><url>
-    <loc>./docs/uniswap/</loc>
+    <loc>//localhost:1313/docs/uniswap/</loc>
   </url><url>
-    <loc>./docs/uniswap/aave_uniswap/</loc>
+    <loc>//localhost:1313/docs/uniswap/aave_uniswap/</loc>
   </url><url>
-    <loc>./docs/uniswap/impermanent_loss/</loc>
+    <loc>//localhost:1313/docs/uniswap/impermanent_loss/</loc>
   </url><url>
-    <loc>./docs/uniswap/concentrated_liq/</loc>
+    <loc>//localhost:1313/docs/uniswap/concentrated_liq/</loc>
   </url><url>
-    <loc>./docs/uniswap/multiple_pools/</loc>
+    <loc>//localhost:1313/docs/uniswap/multiple_pools/</loc>
   </url><url>
-    <loc>./docs/research/</loc>
+    <loc>//localhost:1313/docs/research/</loc>
   </url><url>
-    <loc>./</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>./docs/blockchain/intro_and_concepts/</loc>
+    <loc>//localhost:1313/docs/blockchain/intro_and_concepts/</loc>
   </url><url>
-    <loc>./docs/blockchain/miners_and_ledger/</loc>
+    <loc>//localhost:1313/docs/blockchain/miners_and_ledger/</loc>
   </url><url>
-    <loc>./docs/blockchain/sample_transaction/</loc>
+    <loc>//localhost:1313/docs/blockchain/sample_transaction/</loc>
   </url><url>
-    <loc>./docs/networks/offchains/</loc>
+    <loc>//localhost:1313/docs/networks/offchains/</loc>
   </url><url>
-    <loc>./docs/research/benefits/</loc>
+    <loc>//localhost:1313/docs/research/benefits/</loc>
   </url><url>
-    <loc>./docs/research/portfolio_value_calculation/</loc>
+    <loc>//localhost:1313/docs/research/portfolio_value_calculation/</loc>
   </url><url>
-    <loc>./docs/smart_contracts/polymarket/</loc>
+    <loc>//localhost:1313/docs/smart_contracts/polymarket/</loc>
   </url><url>
-    <loc>./categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>./docs/</loc>
+    <loc>//localhost:1313/docs/</loc>
   </url><url>
-    <loc>./tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
