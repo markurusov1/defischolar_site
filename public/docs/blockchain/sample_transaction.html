@@ -8,22 +8,36 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="A Step-by-Step Transaction: David to John# To understand how money moves in DeFi, let’s look at a simple scenario where David sends 3 Bitcoins to John.
+Transaction Overview# Creation and Broadcast# Signing: David signs the transaction with his wallet’s private key to prove ownership of the coins.
+Mempool: The transaction enters a “mempool,” a digital waiting room for unconfirmed transactions.
+Visibility: While all nodes can see the transaction, it isn’t permanent yet; miners must listen for these broadcasts to prevent double-spending
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/research/index.html">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/blockchain/sample_transaction.html">
   <meta property="og:site_name" content="DeFi Scholar">
   <meta property="og:title" content="DeFi Scholar">
+  <meta property="og:description" content="A Step-by-Step Transaction: David to John# To understand how money moves in DeFi, let’s look at a simple scenario where David sends 3 Bitcoins to John.
+Transaction Overview# Creation and Broadcast# Signing: David signs the transaction with his wallet’s private key to prove ownership of the coins.
+Mempool: The transaction enters a “mempool,” a digital waiting room for unconfirmed transactions.
+Visibility: While all nodes can see the transaction, it isn’t permanent yet; miners must listen for these broadcasts to prevent double-spending">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
 
 
   <meta itemprop="name" content="DeFi Scholar">
+  <meta itemprop="description" content="A Step-by-Step Transaction: David to John# To understand how money moves in DeFi, let’s look at a simple scenario where David sends 3 Bitcoins to John.
+Transaction Overview# Creation and Broadcast# Signing: David signs the transaction with his wallet’s private key to prove ownership of the coins.
+Mempool: The transaction enters a “mempool,” a digital waiting room for unconfirmed transactions.
+Visibility: While all nodes can see the transaction, it isn’t permanent yet; miners must listen for these broadcasts to prevent double-spending">
+  <meta itemprop="wordCount" content="309">
 
-<title>Research | DeFi Scholar</title>
+<title>Sample Transaction | DeFi Scholar</title>
 <link rel="icon" href="../../favicon.png" >
 <link rel="manifest" href="../../manifest.json">
-<link rel="canonical" href="//localhost:1313/docs/research/index.html">
+<link rel="canonical" href="//localhost:1313/docs/blockchain/sample_transaction.html">
 <link rel="stylesheet" href="../../book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
 
 
@@ -31,7 +45,6 @@ https://github.com/alex-shpak/hugo-book
   <script defer src="../../en.search.min.14dfbf4a41b5b534a453ebde5d664647cee1179991b997f6775fbb891af5b201.js" integrity="sha256-FN&#43;/SkG1tTSkU&#43;veXWZGR87hF5mRuZf2d1&#43;7iRr1sgE=" crossorigin="anonymous"></script>
 
 
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/docs/research/index.xml" title="DeFi Scholar" />
 
   <style>
      
@@ -111,7 +124,7 @@ https://github.com/alex-shpak/hugo-book
     [data-theme="dark"] #theme-toggle .moon { display: none; }
 </style>
 </head>
-<body dir="ltr" class="book-kind-section book-type-docs">
+<body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -219,7 +232,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-c7834300e345c6af4fe8ba1614e68c62" class="toggle"  />
+    <input type="checkbox" id="section-c7834300e345c6af4fe8ba1614e68c62" class="toggle" checked />
     <label for="section-c7834300e345c6af4fe8ba1614e68c62" class="flex">
       <a role="button" class="">
         Blockchain</a>
@@ -265,7 +278,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="../../docs/blockchain/sample_transaction.html" class="">
+    <a href="../../docs/blockchain/sample_transaction.html" class="active">
       Sample Transaction</a>
   
 
@@ -665,9 +678,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle" checked />
+    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle"  />
     <label for="section-ad0f001a08f35aaae41256e1ef072b72" class="flex">
-      <a role="button" class="active">
+      <a role="button" class="">
         Research</a>
       <img src="../../icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -749,21 +762,79 @@ https://github.com/alex-shpak/hugo-book
     <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Research</h3>
+  <h3>Sample Transaction</h3>
 
   <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#transaction-overview">Transaction Overview</a></li>
+    <li><a href="#creation-and-broadcast">Creation and Broadcast</a></li>
+    <li><a href="#collecting-into-a-block">Collecting into a Block</a></li>
+    <li><a href="#solving-the-cryptographic-puzzle-proof-of-work">Solving the Cryptographic Puzzle (Proof of Work)</a></li>
+    <li><a href="#verification-and-consensus">Verification and Consensus</a></li>
+    <li><a href="#rewards-and-repetition">Rewards and Repetition</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
  
       </header>
 
       
       
-  <article class="markdown book-article"></article>
+  <article class="markdown book-article"><h1 id="a-step-by-step-transaction-david-to-john">A Step-by-Step Transaction: David to John<a class="anchor" href="#a-step-by-step-transaction-david-to-john">#</a></h1>
+<p>To understand how money moves in DeFi, let&rsquo;s look at a simple scenario where David sends 3 Bitcoins to John.</p>
+<h2 id="transaction-overview">Transaction Overview<a class="anchor" href="#transaction-overview">#</a></h2>
+<div class="book-steps">
+<ol>
+<li>
+<h2 id="creation-and-broadcast">Creation and Broadcast<a class="anchor" href="#creation-and-broadcast">#</a></h2>
+<p><strong>Signing</strong>: David signs the transaction with his wallet’s private key to prove ownership of the coins.<br>
+<strong>Mempool</strong>: The transaction enters a &ldquo;mempool,&rdquo; a digital waiting room for unconfirmed transactions.<br>
+<strong>Visibility</strong>: While all nodes can see the transaction, it isn&rsquo;t permanent yet; miners must listen for these broadcasts to prevent double-spending</p>
+</li>
+<li>
+<h2 id="collecting-into-a-block">Collecting into a Block<a class="anchor" href="#collecting-into-a-block">#</a></h2>
+<p><strong>Bookkeeping</strong>: Miners gather thousands of pending transactions into a &ldquo;block,&rdquo; which acts like a single page in a ledger.<br>
+<strong>Metadata</strong>: Each block contains a timestamp and a reference to the previous block, forming the &ldquo;chain&rdquo;.<br>
+<strong>Incentive</strong>: Miners are paid in Bitcoin for this work, though it requires significant electricity</p>
+</li>
+<li>
+<h2 id="solving-the-cryptographic-puzzle-proof-of-work">Solving the Cryptographic Puzzle (Proof of Work)<a class="anchor" href="#solving-the-cryptographic-puzzle-proof-of-work">#</a></h2>
+<p><strong>The Puzzle</strong>: To add a block, miners must solve a hard math problem by adjusting a number called a &ldquo;nonce&rdquo; until the block&rsquo;s hash meets specific network requirements.<br>
+<strong>Proof of Work</strong>: This process is called &ldquo;proof-of-work&rdquo;.<br>
+<strong>Security</strong>: This trial-and-error process (trillions of attempts) makes it too expensive for bad actors to attack the network.<br>
+<strong>Timing</strong>: The network adjusts difficulty every two weeks to ensure a new block is found roughly every 10 minutes.</p>
+</li>
+<li>
+<h2 id="verification-and-consensus">Verification and Consensus<a class="anchor" href="#verification-and-consensus">#</a></h2>
+<p><strong>Broadcasting</strong>: The first miner to solve the puzzle shares their block with the network.<br>
+<strong>Consensus</strong>: Other nodes verify that the hash is valid and no coins were double-spent.<br>
+<strong>Finality</strong>: Once consensus is reached, the block is added. Evan receives his 3 Bitcoins, and the record becomes immutable.</p>
+</li>
+<li>
+<h2 id="rewards-and-repetition">Rewards and Repetition<a class="anchor" href="#rewards-and-repetition">#</a></h2>
+<p><strong>Block Reward</strong>: The winning miner currently receives ~3.125 Bitcoins (this &ldquo;halves&rdquo; every four years).<br>
+<strong>Fees</strong>: Miners also collect small transaction fees paid by users like Mark.<br>
+<strong>Supply Cap</strong>: This system ensures that only 21 million Bitcoins will ever exist, preventing uncontrolled inflation.</p>
+</div>
+</li>
+</ol>
+</article>
  
       
 
@@ -788,10 +859,33 @@ https://github.com/alex-shpak/hugo-book
   
   
   
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../docs/blockchain/miners_and_ledger.html" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Miners and Ledger</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../docs/networks/index.html" class="flex align-center">
+        <span>Blockchain Networks</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
 
 
  
         
+  
+  <div class="book-comments">
+
+</div>
   
  
         
@@ -810,6 +904,26 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
     
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#transaction-overview">Transaction Overview</a></li>
+    <li><a href="#creation-and-broadcast">Creation and Broadcast</a></li>
+    <li><a href="#collecting-into-a-block">Collecting into a Block</a></li>
+    <li><a href="#solving-the-cryptographic-puzzle-proof-of-work">Solving the Cryptographic Puzzle (Proof of Work)</a></li>
+    <li><a href="#verification-and-consensus">Verification and Consensus</a></li>
+    <li><a href="#rewards-and-repetition">Rewards and Repetition</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
   
  
   </main>

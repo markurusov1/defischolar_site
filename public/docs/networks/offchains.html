@@ -8,22 +8,30 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="Off-Chain Scaling Solutions and Rollups in Ethereum# In the context of Ethereum blockchain scaling, off-chain mechanisms enable the execution of transactions outside the main Layer 1 (L1) chain while preserving its security guarantees. Rollups represent the predominant and most secure form of off-chain scaling solutions currently in use.
+1. Off-Chain Computation: General Principles# Off-chain computation involves performing transaction execution and/or data management in an environment separate from the Ethereum main chain, which is resource-intensive and limited in throughput (approximately 15 transactions per second). The results are then anchored to L1 through cryptographic or cryptoeconomic proofs, allowing verification without full re-execution on the main chain.
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/research/index.html">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/networks/offchains.html">
   <meta property="og:site_name" content="DeFi Scholar">
   <meta property="og:title" content="DeFi Scholar">
+  <meta property="og:description" content="Off-Chain Scaling Solutions and Rollups in Ethereum# In the context of Ethereum blockchain scaling, off-chain mechanisms enable the execution of transactions outside the main Layer 1 (L1) chain while preserving its security guarantees. Rollups represent the predominant and most secure form of off-chain scaling solutions currently in use.
+1. Off-Chain Computation: General Principles# Off-chain computation involves performing transaction execution and/or data management in an environment separate from the Ethereum main chain, which is resource-intensive and limited in throughput (approximately 15 transactions per second). The results are then anchored to L1 through cryptographic or cryptoeconomic proofs, allowing verification without full re-execution on the main chain.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
 
 
   <meta itemprop="name" content="DeFi Scholar">
+  <meta itemprop="description" content="Off-Chain Scaling Solutions and Rollups in Ethereum# In the context of Ethereum blockchain scaling, off-chain mechanisms enable the execution of transactions outside the main Layer 1 (L1) chain while preserving its security guarantees. Rollups represent the predominant and most secure form of off-chain scaling solutions currently in use.
+1. Off-Chain Computation: General Principles# Off-chain computation involves performing transaction execution and/or data management in an environment separate from the Ethereum main chain, which is resource-intensive and limited in throughput (approximately 15 transactions per second). The results are then anchored to L1 through cryptographic or cryptoeconomic proofs, allowing verification without full re-execution on the main chain.">
+  <meta itemprop="wordCount" content="534">
 
-<title>Research | DeFi Scholar</title>
+<title>Offchains | DeFi Scholar</title>
 <link rel="icon" href="../../favicon.png" >
 <link rel="manifest" href="../../manifest.json">
-<link rel="canonical" href="//localhost:1313/docs/research/index.html">
+<link rel="canonical" href="//localhost:1313/docs/networks/offchains.html">
 <link rel="stylesheet" href="../../book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
 
 
@@ -31,7 +39,6 @@ https://github.com/alex-shpak/hugo-book
   <script defer src="../../en.search.min.14dfbf4a41b5b534a453ebde5d664647cee1179991b997f6775fbb891af5b201.js" integrity="sha256-FN&#43;/SkG1tTSkU&#43;veXWZGR87hF5mRuZf2d1&#43;7iRr1sgE=" crossorigin="anonymous"></script>
 
 
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/docs/research/index.xml" title="DeFi Scholar" />
 
   <style>
      
@@ -111,7 +118,7 @@ https://github.com/alex-shpak/hugo-book
     [data-theme="dark"] #theme-toggle .moon { display: none; }
 </style>
 </head>
-<body dir="ltr" class="book-kind-section book-type-docs">
+<body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -284,7 +291,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-1e173b399e39960c431a50680d8dfd31" class="toggle"  />
+    <input type="checkbox" id="section-1e173b399e39960c431a50680d8dfd31" class="toggle" checked />
     <label for="section-1e173b399e39960c431a50680d8dfd31" class="flex">
       <a href="../../docs/networks/index.html" class="">
         Blockchain Networks</a>
@@ -344,7 +351,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="../../docs/networks/offchains.html" class="">
+    <a href="../../docs/networks/offchains.html" class="active">
       Offchains</a>
   
 
@@ -665,9 +672,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle" checked />
+    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle"  />
     <label for="section-ad0f001a08f35aaae41256e1ef072b72" class="flex">
-      <a role="button" class="active">
+      <a role="button" class="">
         Research</a>
       <img src="../../icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -749,21 +756,124 @@ https://github.com/alex-shpak/hugo-book
     <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Research</h3>
+  <h3>Offchains</h3>
 
   <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#off-chain-scaling-solutions-and-rollups-in-ethereum">Off-Chain Scaling Solutions and Rollups in Ethereum</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
  
       </header>
 
       
       
-  <article class="markdown book-article"></article>
+  <article class="markdown book-article"><h3 id="off-chain-scaling-solutions-and-rollups-in-ethereum">Off-Chain Scaling Solutions and Rollups in Ethereum<a class="anchor" href="#off-chain-scaling-solutions-and-rollups-in-ethereum">#</a></h3>
+<p>In the context of Ethereum blockchain scaling, off-chain mechanisms enable the execution of transactions outside the main Layer 1 (L1) chain while preserving its security guarantees. Rollups represent the predominant and most secure form of off-chain scaling solutions currently in use.</p>
+<h4 id="1-off-chain-computation-general-principles">1. Off-Chain Computation: General Principles<a class="anchor" href="#1-off-chain-computation-general-principles">#</a></h4>
+<p>Off-chain computation involves performing transaction execution and/or data management in an environment separate from the Ethereum main chain, which is resource-intensive and limited in throughput (approximately 15 transactions per second). The results are then anchored to L1 through cryptographic or cryptoeconomic proofs, allowing verification without full re-execution on the main chain.</p>
+<p>Principal categories of off-chain solutions include:</p>
+<ul>
+<li>State channels (e.g., Raiden Network, Perun): Bilateral off-chain state updates with on-chain settlement.</li>
+<li>Plasma chains: Earlier designs relying on fraud proofs, largely deprecated due to data availability challenges.</li>
+<li><strong>Rollups</strong>: The prevailing approach, posting transaction data to L1 while executing off-chain.</li>
+<li>Validiums and volitions: Hybrids with off-chain data storage and on-chain proofs.</li>
+<li>Sidechains (e.g., Polygon PoS): Independent chains with separate consensus, not inheriting full Ethereum security.</li>
+</ul>
+<p>Rollups are widely regarded as true Layer 2 (L2) solutions due to their complete reliance on Ethereum&rsquo;s security model.</p>
+<h4 id="2-rollups-execution-and-verification-mechanisms">2. Rollups: Execution and Verification Mechanisms<a class="anchor" href="#2-rollups-execution-and-verification-mechanisms">#</a></h4>
+<p>Rollups perform transaction execution off-chain but post all (or compressed) transaction data to Ethereum L1, typically as calldata or data blobs (via EIP-4844). This design achieves significantly higher throughput, ranging from 2,000 to over 100,000 transactions per second.</p>
+<p>Rollups are classified into two primary types based on their verification methodology:</p>
+<h5 id="a-optimistic-rollups">A. Optimistic Rollups<a class="anchor" href="#a-optimistic-rollups">#</a></h5>
+<p>These assume the validity of off-chain state transitions unless challenged.</p>
+<ul>
+<li>Transactions are batched and executed off-chain by a sequencer.</li>
+<li>Full transaction data is posted to L1.</li>
+<li>A challenge period (typically 7 days) allows any participant to submit a fraud proof disproving invalid transitions.</li>
+<li>Valid fraud proofs result in reversion of the erroneous state and potential penalization of the operator.</li>
+</ul>
+<p>Prominent examples include Arbitrum One/Nova, Optimism (OP Mainnet), Base, and others.</p>
+<p>Primary trade-off: Delayed finality for withdrawals during the challenge window.</p>
+<h5 id="b-zero-knowledge-rollups-zk-rollups">B. Zero-Knowledge Rollups (ZK-Rollups)<a class="anchor" href="#b-zero-knowledge-rollups-zk-rollups">#</a></h5>
+<p>These provide cryptographic proofs of correctness upfront.</p>
+<ul>
+<li>A prover generates a zero-knowledge proof (e.g., SNARK or STARK) attesting to the validity of off-chain execution.</li>
+<li>The proof, along with data, is submitted to L1 for verification by a smart contract.</li>
+<li>No challenge period is required, enabling immediate finality.</li>
+</ul>
+<p>Prominent examples include Polygon zkEVM, zkSync Era, Scroll, Linea, Starknet, and application-specific rollups like dYdX v4.</p>
+<p>Primary trade-off: Higher computational cost for proof generation, though rapidly decreasing.</p>
+<h4 id="comparison-of-rollup-types-as-of-2025">Comparison of Rollup Types (as of 2025)<a class="anchor" href="#comparison-of-rollup-types-as-of-2025">#</a></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Optimistic Rollups</th>
+          <th>ZK-Rollups</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Proof type</td>
+          <td>Fraud proofs (reactive)</td>
+          <td>Validity proofs (proactive)</td>
+      </tr>
+      <tr>
+          <td>Withdrawal delay</td>
+          <td>~7 days (unless liquidity provided)</td>
+          <td>Immediate (post-proof verification)</td>
+      </tr>
+      <tr>
+          <td>Data on L1</td>
+          <td>Full calldata / blobs</td>
+          <td>Full or compressed data + proof</td>
+      </tr>
+      <tr>
+          <td>Security assumption</td>
+          <td>At least one honest challenger</td>
+          <td>Cryptographic proofs only</td>
+      </tr>
+      <tr>
+          <td>Batch posting cost</td>
+          <td>Lower</td>
+          <td>Higher (proof generation), decreasing</td>
+      </tr>
+      <tr>
+          <td>EVM equivalence</td>
+          <td>High</td>
+          <td>Progressing toward full compatibility</td>
+      </tr>
+      <tr>
+          <td>Maturity (2025)</td>
+          <td>Leading in total value locked</td>
+          <td>Rapidly gaining adoption</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="future-developments">Future Developments<a class="anchor" href="#future-developments">#</a></h4>
+<p>With the implementation of Proto-Danksharding (EIP-4844) and the roadmap toward full Danksharding, data availability costs for rollups are expected to decrease substantially. This advancement is anticipated to favor ZK-Rollups in the long term, combining cryptographic finality with cost efficiency while fully leveraging Ethereum&rsquo;s security.</p>
+</article>
  
       
 
@@ -788,10 +898,33 @@ https://github.com/alex-shpak/hugo-book
   
   
   
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../docs/networks/network_browsers.html" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Network Browsers</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../docs/smart_contracts/index.html" class="flex align-center">
+        <span>Smart Contracts</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
 
 
  
         
+  
+  <div class="book-comments">
+
+</div>
   
  
         
@@ -810,6 +943,25 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
     
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#off-chain-scaling-solutions-and-rollups-in-ethereum">Off-Chain Scaling Solutions and Rollups in Ethereum</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
   
  
   </main>

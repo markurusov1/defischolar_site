@@ -8,22 +8,27 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)# Based on Section 2 of the Uniswap v3 whitepaper (“Concentrated Liquidity”), this is a simplified example using a BTC/ETH pool, where the price p is quoted as ETH per BTC (i.e., how many ETH are needed to buy 1 BTC; BTC is asset X, ETH is asset Y). This follows the paper’s math for virtual and real reserves, position solvency within ranges, and how positions activate/deactivate as price moves.
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/research/index.html">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/docs/uniswap/concentrated_liq.html">
   <meta property="og:site_name" content="DeFi Scholar">
-  <meta property="og:title" content="DeFi Scholar">
+  <meta property="og:title" content="Concentrated Liquidity">
+  <meta property="og:description" content="Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)# Based on Section 2 of the Uniswap v3 whitepaper (“Concentrated Liquidity”), this is a simplified example using a BTC/ETH pool, where the price p is quoted as ETH per BTC (i.e., how many ETH are needed to buy 1 BTC; BTC is asset X, ETH is asset Y). This follows the paper’s math for virtual and real reserves, position solvency within ranges, and how positions activate/deactivate as price moves.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
 
 
-  <meta itemprop="name" content="DeFi Scholar">
+  <meta itemprop="name" content="Concentrated Liquidity">
+  <meta itemprop="description" content="Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)# Based on Section 2 of the Uniswap v3 whitepaper (“Concentrated Liquidity”), this is a simplified example using a BTC/ETH pool, where the price p is quoted as ETH per BTC (i.e., how many ETH are needed to buy 1 BTC; BTC is asset X, ETH is asset Y). This follows the paper’s math for virtual and real reserves, position solvency within ranges, and how positions activate/deactivate as price moves.">
+  <meta itemprop="wordCount" content="954">
 
-<title>Research | DeFi Scholar</title>
+<title>Concentrated Liquidity | DeFi Scholar</title>
 <link rel="icon" href="../../favicon.png" >
 <link rel="manifest" href="../../manifest.json">
-<link rel="canonical" href="//localhost:1313/docs/research/index.html">
+<link rel="canonical" href="//localhost:1313/docs/uniswap/concentrated_liq.html">
 <link rel="stylesheet" href="../../book.min.de560c44345cf0084702c0002756f29c4cb66637859c7c0fc5af45a9cc18ce3a.css" integrity="sha256-3lYMRDRc8AhHAsAAJ1bynEy2ZjeFnHwPxa9FqcwYzjo=" crossorigin="anonymous">
 
 
@@ -31,7 +36,6 @@ https://github.com/alex-shpak/hugo-book
   <script defer src="../../en.search.min.14dfbf4a41b5b534a453ebde5d664647cee1179991b997f6775fbb891af5b201.js" integrity="sha256-FN&#43;/SkG1tTSkU&#43;veXWZGR87hF5mRuZf2d1&#43;7iRr1sgE=" crossorigin="anonymous"></script>
 
 
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/docs/research/index.xml" title="DeFi Scholar" />
 
   <style>
      
@@ -111,7 +115,7 @@ https://github.com/alex-shpak/hugo-book
     [data-theme="dark"] #theme-toggle .moon { display: none; }
 </style>
 </head>
-<body dir="ltr" class="book-kind-section book-type-docs">
+<body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -586,7 +590,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-0bec55acdb444c915e0bc07c6a020c5d" class="toggle"  />
+    <input type="checkbox" id="section-0bec55acdb444c915e0bc07c6a020c5d" class="toggle" checked />
     <label for="section-0bec55acdb444c915e0bc07c6a020c5d" class="flex">
       <a href="../../docs/uniswap/index.html" class="">
         Uniswap</a>
@@ -632,7 +636,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="../../docs/uniswap/concentrated_liq.html" class="">
+    <a href="../../docs/uniswap/concentrated_liq.html" class="active">
       Concentrated Liquidity</a>
   
 
@@ -665,9 +669,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle" checked />
+    <input type="checkbox" id="section-ad0f001a08f35aaae41256e1ef072b72" class="toggle"  />
     <label for="section-ad0f001a08f35aaae41256e1ef072b72" class="flex">
-      <a role="button" class="active">
+      <a role="button" class="">
         Research</a>
       <img src="../../icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
@@ -749,21 +753,210 @@ https://github.com/alex-shpak/hugo-book
     <img src="../../icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Research</h3>
+  <h3>Concentrated Liquidity</h3>
 
   <label for="toc-control">
+    
+    <img src="../../icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#example-illustration-of-concentrated-liquidity-in-uniswap-v3-btceth-pair">Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
  
       </header>
 
       
       
-  <article class="markdown book-article"></article>
+  <article class="markdown book-article"><h3 id="example-illustration-of-concentrated-liquidity-in-uniswap-v3-btceth-pair">Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)<a class="anchor" href="#example-illustration-of-concentrated-liquidity-in-uniswap-v3-btceth-pair">#</a></h3>
+<p>Based on Section 2 of the Uniswap v3 whitepaper (&ldquo;Concentrated Liquidity&rdquo;), this is a simplified example using a
+BTC/ETH pool, where the price <em>p</em> is quoted as ETH per BTC (i.e., how many ETH are needed to buy 1 BTC; BTC is asset
+X, ETH is asset Y). This follows the paper&rsquo;s math for virtual and real reserves, position solvency within ranges, and how positions activate/deactivate as price moves.</p>
+<p>To keep calculations exact and illustrative, we&rsquo;ll assume:</p>
+<ul>
+<li>Each LP provides liquidity <em>L</em> = 1000 (a measure of position size/depth, as defined in the paper where <em>L</em> = √<em>k</em> for the virtual constant product curve).</li>
+<li>Positions use price ranges with perfect squares for clean math (e.g., 1, 4, 9, 16, 25).</li>
+<li>Swap fee tier = 0.3% (as mentioned in the paper; fees are paid on input amount and accrued to active positions).</li>
+<li>Initial price <em>p</em> = 9 ETH per BTC (imaginary for simplicity; real-world BTC/ETH is ~20, but this doesn&rsquo;t change the mechanics).</li>
+<li>A large price movement upward (BTC appreciates vs. ETH) caused by traders buying BTC (inputting ETH, outputting BTC).</li>
+<li>Positions:
+<ul>
+<li><strong>LP1 (close to current price)</strong>: Range [4, 16] ETH per BTC. This is narrow around the initial price of 9.</li>
+<li><strong>LP2 (deeper in the book, lower prices)</strong>: Range [1, 4] ETH per BTC. Far below the initial price (inactive initially).</li>
+<li><strong>LP3 (deeper in the book, higher prices)</strong>: Range [16, 25] ETH per BTC. Far above the initial price (inactive initially).</li>
+</ul>
+</li>
+<li>Only LP1 is active initially (since 4 ≤ 9 ≤ 16). LP2 and LP3 are inactive and hold only one asset each.</li>
+<li>We&rsquo;ll simulate the price movement via <strong>two transactions</strong> (swaps) that cross ranges: one moving price from 9 to 16 (deactivating LP1), and another from 16 to 20 (activating LP3). This shows deactivation/activation. Swaps are computed segment-by-segment when crossing ranges, per the paper&rsquo;s concentrated liquidity model.</li>
+</ul>
+<p>Numbers are rounded to two decimals for readability (exact values from simulation).</p>
+<h4 id="initial-state-before-any-transactions">Initial State (Before Any Transactions)<a class="anchor" href="#initial-state-before-any-transactions">#</a></h4>
+<ul>
+<li><strong>Current price</strong>: 9 ETH per BTC.</li>
+<li><strong>Pool reserves</strong>: 133.33 BTC, 2000 ETH.</li>
+<li><strong>Active positions</strong>: Only LP1 (provides all trading liquidity).</li>
+<li><strong>Position details</strong> (size <em>L</em>, range, real reserves held; inactive positions hold single-asset reserves but don&rsquo;t contribute to trading):
+<table>
+  <thead>
+      <tr>
+          <th>LP</th>
+          <th>L (Position Size)</th>
+          <th>Range [p_a, p_b]</th>
+          <th>Real Reserves (BTC)</th>
+          <th>Real Reserves (ETH)</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>LP1</td>
+          <td>1000</td>
+          <td>[4, 16]</td>
+          <td>83.33</td>
+          <td>1000</td>
+          <td>Active</td>
+      </tr>
+      <tr>
+          <td>LP2</td>
+          <td>1000</td>
+          <td>[1, 4]</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>Inactive</td>
+      </tr>
+      <tr>
+          <td>LP3</td>
+          <td>1000</td>
+          <td>[16, 25]</td>
+          <td>50</td>
+          <td>0</td>
+          <td>Inactive</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li><strong>Notes</strong>: Real reserves follow Equation 2.2 from the paper. Total pool reserves sum all positions (including inactive). The spot price is determined only by active positions&rsquo; virtual reserves (here, LP1&rsquo;s virtual curve gives exactly p=9). Fees paid: N/A (no transaction yet).</li>
+</ul>
+<h4 id="transaction-1-swap-eth-for-btc-to-move-price-from-9-to-16">Transaction 1: Swap ETH for BTC to Move Price from 9 to 16<a class="anchor" href="#transaction-1-swap-eth-for-btc-to-move-price-from-9-to-16">#</a></h4>
+<ul>
+<li><strong>Description</strong>: A trader inputs ETH to buy BTC, moving the price up to the upper bound of LP1&rsquo;s range (16 ETH per BTC). This uses only LP1&rsquo;s liquidity (as it&rsquo;s the only active position). Once the price hits 16, LP1 deactivates (its reserves shift to 100% ETH, per the paper—it can no longer support upward trades).</li>
+<li><strong>Input</strong>: 1003.01 ETH (gross; trader pays this to the pool).</li>
+<li><strong>Output</strong>: 83.33 BTC.</li>
+<li><strong>Fees paid</strong>: 3.01 ETH (0.3% of input; accrued to LP1 as it was active during the trade).</li>
+<li><strong>New price</strong>: 16 ETH per BTC.</li>
+<li><strong>New pool reserves</strong>: 50 BTC, 3003.01 ETH.</li>
+<li><strong>New position details</strong> (real reserves are base formula values; accrued fees are extra claimable by LPs but remain in pool reserves):
+<table>
+  <thead>
+      <tr>
+          <th>LP</th>
+          <th>L (Position Size)</th>
+          <th>Range [p_a, p_b]</th>
+          <th>Real Reserves (BTC)</th>
+          <th>Real Reserves (ETH)</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>LP1</td>
+          <td>1000</td>
+          <td>[4, 16]</td>
+          <td>0</td>
+          <td>2000 (+3.01 fees)</td>
+          <td>Inactive (deactivated)</td>
+      </tr>
+      <tr>
+          <td>LP2</td>
+          <td>1000</td>
+          <td>[1, 4]</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>Inactive</td>
+      </tr>
+      <tr>
+          <td>LP3</td>
+          <td>1000</td>
+          <td>[16, 25]</td>
+          <td>50</td>
+          <td>0</td>
+          <td>Inactive (but activates at 16 for further upward moves)</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li><strong>Notes</strong>: LP1 deactivated as price exited its range upward (reserves now 100% ETH, matching paper&rsquo;s description). Total pool ETH includes the 3.01 fees. LP2 remains inactive (price moved further away). LP3 is now at its lower bound and will activate for the next upward trade.</li>
+</ul>
+<h4 id="transaction-2-swap-eth-for-btc-to-move-price-from-16-to-20">Transaction 2: Swap ETH for BTC to Move Price from 16 to 20<a class="anchor" href="#transaction-2-swap-eth-for-btc-to-move-price-from-16-to-20">#</a></h4>
+<ul>
+<li><strong>Description</strong>: Another trader (or continuation) inputs ETH to buy BTC, moving price to 20 ETH per BTC. This uses LP3&rsquo;s liquidity (activated at 16). LP1 remains inactive.</li>
+<li><strong>Input</strong>: 473.56 ETH (gross; trader pays this to the pool).</li>
+<li><strong>Output</strong>: 26.39 BTC.</li>
+<li><strong>Fees paid</strong>: 1.42 ETH (0.3% of input; accrued to LP3 as it was active during the trade).</li>
+<li><strong>New price</strong>: 20 ETH per BTC.</li>
+<li><strong>New pool reserves</strong>: 23.61 BTC, 3476.57 ETH.</li>
+<li><strong>New position details</strong> (real reserves are base formula values; accrued fees are extra claimable by LPs but remain in pool reserves):
+<table>
+  <thead>
+      <tr>
+          <th>LP</th>
+          <th>L (Position Size)</th>
+          <th>Range [p_a, p_b]</th>
+          <th>Real Reserves (BTC)</th>
+          <th>Real Reserves (ETH)</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>LP1</td>
+          <td>1000</td>
+          <td>[4, 16]</td>
+          <td>0</td>
+          <td>2000 (+3.01 fees)</td>
+          <td>Inactive</td>
+      </tr>
+      <tr>
+          <td>LP2</td>
+          <td>1000</td>
+          <td>[1, 4]</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>Inactive</td>
+      </tr>
+      <tr>
+          <td>LP3</td>
+          <td>1000</td>
+          <td>[16, 25]</td>
+          <td>23.61</td>
+          <td>472.14 (+1.42 fees)</td>
+          <td>Active (activated)</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li><strong>Notes</strong>: LP3 activated as price entered its range (providing the virtual curve for trading). LP1 stayed inactive (price is now outside [4,16]). LP2 remained inactive (price is even further above its range). Total pool ETH includes cumulative fees (4.43 ETH total across transactions). If price reversed downward, LP3 could deactivate, and LP1 could reactivate.</li>
+</ul>
+<p>This example demonstrates the paper&rsquo;s key concepts: LPs concentrate liquidity in custom ranges for efficiency, positions activate/deactivate based on current price (allowing market-driven allocation), and inactive positions hold single assets without contributing to trades. In a real BTC/ETH pool, similar dynamics apply, but with discrete ticks and real prices (e.g., around 20 ETH per BTC). If the price moved downward instead, it could deactivate LP1 and potentially activate LP2. For more details or variations, see Equations 2.1–2.2 and Figures 1–3 in the paper.</p>
+</article>
  
       
 
@@ -788,10 +981,33 @@ https://github.com/alex-shpak/hugo-book
   
   
   
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="../../docs/uniswap/impermanent_loss.html" class="flex align-center">
+        <img src="../../icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Impermanent Loss</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="../../docs/uniswap/multiple_pools.html" class="flex align-center">
+        <span>Multiple Pools</span>
+        <img src="../../icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
 
 
  
         
+  
+  <div class="book-comments">
+
+</div>
   
  
         
@@ -810,6 +1026,25 @@ https://github.com/alex-shpak/hugo-book
     </div>
 
     
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#example-illustration-of-concentrated-liquidity-in-uniswap-v3-btceth-pair">Example Illustration of Concentrated Liquidity in Uniswap v3 (BTC/ETH Pair)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
   
  
   </main>

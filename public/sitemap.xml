@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/docs/start/</loc>
+    <loc>//localhost:1313/docs/start/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/start/basic_terminology/</loc>
+    <loc>//localhost:1313/docs/start/basic_terminology/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/currencies_and_trust/</loc>
+    <loc>//localhost:1313/docs/currencies_and_trust/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/blockchain/</loc>
+    <loc>//localhost:1313/docs/blockchain/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/networks/</loc>
+    <loc>//localhost:1313/docs/networks/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/networks/top15/</loc>
+    <loc>//localhost:1313/docs/networks/top15.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/networks/the_big_three/</loc>
+    <loc>//localhost:1313/docs/networks/the_big_three.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/networks/network_browsers/</loc>
+    <loc>//localhost:1313/docs/networks/network_browsers.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/smart_contracts/</loc>
+    <loc>//localhost:1313/docs/smart_contracts/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/</loc>
+    <loc>//localhost:1313/docs/defi_basics/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/pools_farming/</loc>
+    <loc>//localhost:1313/docs/defi_basics/pools_farming.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/staking/</loc>
+    <loc>//localhost:1313/docs/defi_basics/staking.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/vaults/</loc>
+    <loc>//localhost:1313/docs/defi_basics/vaults.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/amm/</loc>
+    <loc>//localhost:1313/docs/defi_basics/amm.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/collateralized_lending/</loc>
+    <loc>//localhost:1313/docs/defi_basics/collateralized_lending.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/flash_loans/</loc>
+    <loc>//localhost:1313/docs/defi_basics/flash_loans.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/defi_basics/rwa/</loc>
+    <loc>//localhost:1313/docs/defi_basics/rwa.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/trading/</loc>
+    <loc>//localhost:1313/docs/trading/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/trading/l2-market-order/</loc>
+    <loc>//localhost:1313/docs/trading/l2-market-order.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/trading/margin-loans/</loc>
+    <loc>//localhost:1313/docs/trading/margin-loans.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/trading/market-making/</loc>
+    <loc>//localhost:1313/docs/trading/market-making.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/uniswap/</loc>
+    <loc>//localhost:1313/docs/uniswap/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/uniswap/aave_uniswap/</loc>
+    <loc>//localhost:1313/docs/uniswap/aave_uniswap.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/uniswap/impermanent_loss/</loc>
+    <loc>//localhost:1313/docs/uniswap/impermanent_loss.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/uniswap/concentrated_liq/</loc>
+    <loc>//localhost:1313/docs/uniswap/concentrated_liq.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/uniswap/multiple_pools/</loc>
+    <loc>//localhost:1313/docs/uniswap/multiple_pools.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/research/</loc>
+    <loc>//localhost:1313/docs/research/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:1313/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/blockchain/intro_and_concepts/</loc>
+    <loc>//localhost:1313/docs/blockchain/intro_and_concepts.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/blockchain/miners_and_ledger/</loc>
+    <loc>//localhost:1313/docs/blockchain/miners_and_ledger.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/blockchain/sample_transaction/</loc>
+    <loc>//localhost:1313/docs/blockchain/sample_transaction.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/networks/offchains/</loc>
+    <loc>//localhost:1313/docs/networks/offchains.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/research/benefits/</loc>
+    <loc>//localhost:1313/docs/research/benefits.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/research/portfolio_value_calculation/</loc>
+    <loc>//localhost:1313/docs/research/portfolio_value_calculation.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/smart_contracts/polymarket/</loc>
+    <loc>//localhost:1313/docs/smart_contracts/polymarket.html</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/docs/</loc>
+    <loc>//localhost:1313/docs/index.html</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/index.html</loc>
   </url>
 </urlset>
