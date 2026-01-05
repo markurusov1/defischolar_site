@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.defischolar.com/docs/start/</loc>
+    <loc>http://localhost:1313/docs/start/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/start/basic_terminology/</loc>
+    <loc>http://localhost:1313/docs/start/basic_terminology/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/currencies_and_trust/</loc>
+    <loc>http://localhost:1313/docs/currencies_and_trust/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/blockchain/</loc>
+    <loc>http://localhost:1313/docs/blockchain/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/networks/</loc>
+    <loc>http://localhost:1313/docs/networks/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/networks/top15/</loc>
+    <loc>http://localhost:1313/docs/networks/top15/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/networks/the_big_three/</loc>
+    <loc>http://localhost:1313/docs/networks/the_big_three/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/networks/network_browsers/</loc>
+    <loc>http://localhost:1313/docs/networks/network_browsers/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/smart_contracts/</loc>
+    <loc>http://localhost:1313/docs/smart_contracts/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/pools_farming/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/pools_farming/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/staking/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/staking/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/vaults/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/vaults/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/amm/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/amm/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/collateralized_lending/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/collateralized_lending/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/flash_loans/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/flash_loans/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/defi_basics/rwa/</loc>
+    <loc>http://localhost:1313/docs/defi_basics/rwa/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/trading/</loc>
+    <loc>http://localhost:1313/docs/trading/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/trading/l2-market-order/</loc>
+    <loc>http://localhost:1313/docs/trading/l2-market-order/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/trading/margin-loans/</loc>
+    <loc>http://localhost:1313/docs/trading/margin-loans/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/trading/market-making/</loc>
+    <loc>http://localhost:1313/docs/trading/market-making/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/uniswap/</loc>
+    <loc>http://localhost:1313/docs/uniswap/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/uniswap/aave_uniswap/</loc>
+    <loc>http://localhost:1313/docs/uniswap/aave_uniswap/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/uniswap/impermanent_loss/</loc>
+    <loc>http://localhost:1313/docs/uniswap/impermanent_loss/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/uniswap/concentrated_liq/</loc>
+    <loc>http://localhost:1313/docs/uniswap/concentrated_liq/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/uniswap/multiple_pools/</loc>
+    <loc>http://localhost:1313/docs/uniswap/multiple_pools/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/research/</loc>
+    <loc>http://localhost:1313/docs/research/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/research/benefits/</loc>
+    <loc>http://localhost:1313/docs/research/benefits/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/research/portfolio_value_calculation/</loc>
+    <loc>http://localhost:1313/docs/research/portfolio_value_calculation/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/blockchain/intro_and_concepts/</loc>
+    <loc>http://localhost:1313/docs/blockchain/intro_and_concepts/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/blockchain/miners_and_ledger/</loc>
+    <loc>http://localhost:1313/docs/blockchain/miners_and_ledger/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/blockchain/sample_transaction/</loc>
+    <loc>http://localhost:1313/docs/blockchain/sample_transaction/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/networks/offchains/</loc>
+    <loc>http://localhost:1313/docs/networks/offchains/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/smart_contracts/polymarket/</loc>
+    <loc>http://localhost:1313/docs/smart_contracts/polymarket/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>https://www.defischolar.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
